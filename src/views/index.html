@@ -1,11 +1,28 @@
 <html>
 
 <head>
-
+	<style>
+		.hidden {
+			visibility: hidden;
+			display: none;
+		}
+	</style>
 </head>
 
 <body>
-	<h1>Hey y'all! Game Client</h1>
+	<h1>AHOT Trivia Game</h1>
+
+	<div class="hidden" id="home">
+		<h2>Home</h2>
+		<p>Information about the game</p>
+		<button id="startGame">Start a new game</button>
+	</div>
+
+	<div class="hidden" id="join">
+		<h2>Join</h2>
+		<p>Enter your name to join.</p>
+	</div>
+
 	<script type="module" src="/client.js"></script>
 </body>
 
