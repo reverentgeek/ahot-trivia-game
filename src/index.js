@@ -20,7 +20,6 @@ server.register( fastifyIO );
 
 // Register the static file plugin
 const publicPath = path.join( __dirname, "public" );
-console.log( "publicPath:", publicPath );
 server.register( fastifyStatic, {
 	root: publicPath
 } );
