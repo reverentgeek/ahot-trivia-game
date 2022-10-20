@@ -4,7 +4,9 @@
 	"description": "Multi-player real-time game built with Node.js!",
 	"main": "src/index.js",
 	"scripts": {
-		"dev": "nodemon src/index.js",
+		"build": "tailwind -i ./src/client/game.css -o ./public/game.css",
+		"dev": "nodemon --watch src -e js,html,css --exec \"npm run build && npm run start\"",
+		"start": "node src/index.js",
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"keywords": [
@@ -22,13 +24,15 @@
 	"devDependencies": {
 		"eslint": "^8.24.0",
 		"eslint-config-reverentgeek": "^3.2.2",
-		"nodemon": "^2.0.20"
+		"nodemon": "^2.0.20",
+		"tailwindcss": "^3.2.0"
 	},
 	"dependencies": {
 		"@fastify/static": "^6.5.0",
 		"dotenv": "^16.0.3",
 		"fastify": "^4.6.0",
 		"fastify-socket.io": "^4.0.0",
-		"socket.io": "^4.5.2"
+		"socket.io": "^4.5.2",
+		"vue": "^3.2.41"
 	}
 }
