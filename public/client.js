@@ -1,4 +1,7 @@
 import { io } from "/socket.io/socket.io.esm.min.js";
+import { createApp } from "/vue/vue.esm-browser.js";
+import Home from "./components/home.js";
+import Join from "./components/join.js";
 
 const socket = io();
 const states = [
@@ -7,35 +10,32 @@ const states = [
 	"gameover", "score"
 ];
 
-function hideAll() {
-	for( const state of states ) {
-		const el = document.getElementById( state );
-		if ( el && !el.classList.contains( "hidden" ) ) {
-			el.classList.add( "hidden" );
+createApp( {
+	components: {
+		Home,
+		Join
+	},
+	data() {
+		return {
+			state: "home",
+			playerName: ""
+		};
+	},
+	methods: {
+		showJoin() {
+			this.state = "join";
 		}
-	}
-}
+	},
+	created() {
+		socket.connect();
 
-function showState( state ) {
-	hideAll();
-	const el = document.getElementById( state );
-	if ( el ) {
-		el.classList.remove( "hidden" );
-	}
-}
-
-socket.on( "state", state => {
-	console.log( state );
-	showState( state );
-} );
-
-function start() {
-	showState( "join" );
-}
-
-document.addEventListener( "DOMContentLoaded", () => {
-	const startButton = document.getElementById( "startGame" );
-	if ( startButton ) {
-		startButton.addEventListener( "click", start );
-	}
-} );
+		socket.on( "state", state => {
+			console.log( state );
+			this.state = state;
+		} );
+	},
+	template: `
+	<Home v-if="state === 'home'" @join="showJoin" />
+	<Join v-if="state === 'join'" />
+	`
+} ).mount( "#app" );
