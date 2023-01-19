@@ -567,10 +567,6 @@ video {
   margin-bottom: 1rem;
 }
 
-.hidden {
-  display: none;
-}
-
 .rounded {
   border-radius: 0.25rem;
 }
