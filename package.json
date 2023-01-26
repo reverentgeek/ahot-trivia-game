@@ -5,7 +5,7 @@
 	"main": "src/index.js",
 	"scripts": {
 		"build": "tailwind -i ./src/client/game.css -o ./public/game.css",
-		"dev": "nodemon --watch src -e js,html,css --exec \"npm run build && npm run start\"",
+		"dev": "nodemon --watch src --watch public -e js,html,css --exec \"npm run build && npm run start\"",
 		"start": "node src/index.js",
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},

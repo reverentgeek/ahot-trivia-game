@@ -23,6 +23,10 @@ function start( server ) {
 
 	// we need to wait for the server to be ready, else `server.io` is undefined
 	server.io.on( "connection", ( socket ) => {
+		socket.on( "join-game", ( { playerName } ) => {
+			console.log( "Server received 'join-game' from player:", playerName );
+		} );
+
 		console.log( "socket connection made", socket.id );
 		sendState( socket );
 	} );

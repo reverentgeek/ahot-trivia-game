@@ -24,6 +24,12 @@ createApp( {
 	methods: {
 		showJoin() {
 			this.state = "join";
+		},
+		registerPlayer( playerName ) {
+			this.playerName = playerName;
+			socket.emit( "join-game", {
+				playerName
+			} );
 		}
 	},
 	created() {
@@ -36,6 +42,6 @@ createApp( {
 	},
 	template: `
 	<Home v-if="state === 'home'" @join="showJoin" />
-	<Join v-if="state === 'join'" />
+	<Join v-if="state === 'join'" @registerPlayer="registerPlayer" />
 	`
 } ).mount( "#app" );
