@@ -2,12 +2,21 @@
 
 // Require the framework and instantiate it
 const fastify = require( "fastify" );
+const fastifySession = require( "@fastify/session" );
+const fastifyCookie = require( "@fastify/cookie" );
 const fastifyIO = require( "fastify-socket.io" );
 const fastifyStatic = require( "@fastify/static" );
 const path = require( "path" );
 
 const dotenv = require( "dotenv" );
 dotenv.config();
+
+const {
+	PORT: port,
+	HOST: host,
+	SESSION_SECRET: sessionSecret,
+	HTTPS_ENABLED: secure
+} = process.env;
 
 const gameServer = require( "./gameServer" );
 
@@ -16,6 +25,18 @@ const views = path.join( __dirname, "views" );
 
 // Create the Fastify server
 const server = fastify( { logger: true } );
+
+// Register Session/cookie
+server.register( fastifyCookie );
+const sessionStore = new fastifySession.MemoryStore;
+const sessionOptions = { store: sessionStore, secret: sessionSecret, cookie: { secure } };
+server.register( fastifySession,  sessionOptions );
+server.addHook( "preHandler", ( request, reply, next ) => {
+	// console.log( "request.session:", request.session );
+	// Todo: figure out how to load a user from storage and populate the session.user
+	request.session.user = { name: "max" };
+	next();
+} );
 
 // Register the socket.io plugin
 server.register( fastifyIO );
@@ -56,7 +77,7 @@ server.ready().then( () => {
 // Run the server!
 const start = async () => {
 	try {
-		const { PORT: port, HOST: host } = process.env;
+		// creating the options object
 		const options = { port, host };
 		await server.listen( options );
 	} catch ( err ) {

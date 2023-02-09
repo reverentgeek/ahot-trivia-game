@@ -18,7 +18,8 @@ createApp( {
 	data() {
 		return {
 			state: "home",
-			playerName: ""
+			playerName: "",
+			id: ""
 		};
 	},
 	methods: {
@@ -33,7 +34,20 @@ createApp( {
 		}
 	},
 	created() {
+		const sessionId = localStorage.getItem( "sessionId" );
+		if ( sessionId ) {
+			this.id = sessionId;
+			socket.auth = { sessionId };
+		}
+
 		socket.connect();
+
+		socket.on( "session", sessionId => {
+			console.log( "sessionId", sessionId );
+			socket.auth = { sessionId };
+			this.id = sessionId;
+			localStorage.setItem( "sessionId", sessionId );
+		} );
 
 		socket.on( "state", state => {
 			console.log( state );
