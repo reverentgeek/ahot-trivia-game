@@ -11,14 +11,40 @@ const states = {
 };
 
 function start( server ) {
-	const state = states.home;
+	let state = states.home;
+	let countdown;
 	const players = [];
 
 	function sendState( socket ) {
+		const currentState = {
+			state,
+			countdown,
+			players
+		};
 		if ( socket ) {
-			return socket.emit( "state", state );
+			return socket.emit( "state", currentState );
 		}
-		server.io.emit( "state", state );
+		server.io.emit( "state", currentState );
+	}
+
+	function doTheCountdown() {
+		setTimeout( () => {
+			countdown--;
+			if ( countdown === 0 ) {
+				state = state.active;
+			}
+			sendState();
+			if ( countdown > 0 ) {
+				doTheCountdown();
+			}
+		}, 1000 );
+	}
+
+	function startGame() {
+		state = states.countdown;
+		countdown = 3;
+		sendState();
+		doTheCountdown();
 	}
 
 	// we need to wait for the server to be ready, else `server.io` is undefined
@@ -30,8 +56,8 @@ function start( server ) {
 			callback( player );
 			players.push( player );
 			// TODO: Set the limit of the number of players?
-			if ( players.length >= 4 ) {
-				// Start the game
+			if ( players.length >= 2 ) {
+				startGame();
 			}
 		} );
 

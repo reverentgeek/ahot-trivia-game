@@ -25,9 +25,9 @@ All Hands On Tech Live multi-player trivia game built with Node.js, FastifyJS, a
 [x] Setup Tailwind configuration and build process
 [x] Introduce Vue.js, show/hide components based game states
 [x] Allow player to enter a name and join the game
-[ ] First player can start the game
-[ ] Game starting countdown timer
-[ ] Game timer
+[x] First player can start the game
+[x] Game starting countdown timer
+[x] Game timer
 [ ] Randomize questions
 [ ] Automatically stop the game when time is up or when all players have answered all questions
 [ ] Calculate the winner
