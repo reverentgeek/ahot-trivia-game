@@ -13,6 +13,7 @@ const states = {
 function start( server ) {
 	let state = states.home;
 	let countdown;
+	let countDownStart;
 	const players = [];
 
 	function sendState( socket ) {
@@ -28,16 +29,29 @@ function start( server ) {
 	}
 
 	function doTheCountdown() {
-		setTimeout( () => {
-			countdown--;
-			if ( countdown === 0 ) {
-				state = state.active;
+		countDownStart = Date.now();
+		const interval = 1000;
+		const totalSeconds = ( state === states.countdown ) ? 3 : 60;
+		let stepCount = 0;
+
+		const step = () => {
+			const now = Date.now();
+			stepCount++;
+			const diff = now - countDownStart;
+			const secondsPassed = Math.round( diff / 1000 );
+			if ( ( totalSeconds - secondsPassed ) < 0 ) {
+				countdown = 0;
+				state = ( state === states.countdown ) ? states.active : states.gameover;
+				return sendState();
 			}
+			countdown = totalSeconds - secondsPassed;
 			sendState();
-			if ( countdown > 0 ) {
-				doTheCountdown();
-			}
-		}, 1000 );
+			const drift = diff - ( stepCount * interval );
+			const timeout = interval - drift;
+			setTimeout( step, timeout );
+		};
+
+		setTimeout( step, interval );
 	}
 
 	function startGame() {
