@@ -1,0 +1,23 @@
+[
+	{
+		"question": "Here's an easy question for ya...",
+		"choices": [
+			{
+				"choice": "42",
+				"correct": false
+			},
+			{
+				"choice": "Bacon",
+				"correct": true
+			},
+			{
+				"choice": "Google",
+				"correct": false
+			},
+			{
+				"choice": "Mustard",
+				"correct": false
+			}
+		]
+	}
+]

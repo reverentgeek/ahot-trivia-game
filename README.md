@@ -4,7 +4,7 @@ All Hands On Tech Live multi-player trivia game built with Node.js, FastifyJS, a
 
 ## Dependencies
 
-* [Node.js LTS](https://nodejs.org) (currently 16+)
+* [Node.js LTS](https://nodejs.org) (currently 18+)
 * Hint: Use [nvm](https://github.com/nvm-sh/nvm) to manage your versions of Node.js
 
 ## Setup
