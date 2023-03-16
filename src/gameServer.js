@@ -1,5 +1,7 @@
 "use strict";
 
+const quiz = require( "./quiz" );
+
 const states = {
 	home: "home",
 	join: "join",
@@ -15,6 +17,7 @@ function start( server ) {
 	let countdown;
 	let countDownStart;
 	const players = [];
+	let trivia = [];
 
 	function sendState( socket ) {
 		const currentState = {
@@ -26,6 +29,14 @@ function start( server ) {
 			return socket.emit( "state", currentState );
 		}
 		server.io.emit( "state", currentState );
+	}
+
+	function sendTrivia() {
+		// TODO: remove answers
+		// trivia.forEach( t => {
+		// 	delete t.correct;
+		// } );
+		server.io.emit( "trivia", trivia );
 	}
 
 	function doTheCountdown() {
@@ -42,6 +53,9 @@ function start( server ) {
 			if ( ( totalSeconds - secondsPassed ) < 0 ) {
 				countdown = 0;
 				state = ( state === states.countdown ) ? states.active : states.gameover;
+				if ( state === states.active ) {
+					initGame();
+				}
 				return sendState();
 			}
 			countdown = totalSeconds - secondsPassed;
@@ -52,6 +66,13 @@ function start( server ) {
 		};
 
 		setTimeout( step, interval );
+	}
+
+	function initGame() {
+		trivia = quiz.getRandomTrivia().slice( 0, 50 );
+		console.log( trivia );
+		console.log( trivia.length );
+		sendTrivia();
 	}
 
 	function startGame() {

@@ -2,6 +2,10 @@
 const fs = require( "fs-extra" );
 const path = require( "path" );
 
+function randomChoice( choices ) {
+	return Math.floor( Math.random() * ( choices ) );
+}
+
 function generateRandomQuestions( numberOfQuestions ) {
 	let questions = [];
 	for( let i = 0; i < numberOfQuestions; i++ ) {
@@ -10,14 +14,14 @@ function generateRandomQuestions( numberOfQuestions ) {
 			choices: []
 		};
 		if ( ( i % 3 ) === 0 ) {
-			question.choices.push( { choice: "True", correct: true } );
-			question.choices.push( { choice: "False", correct: false } );
+			question.choices.push( { choice: "True" } );
+			question.choices.push( { choice: "False" } );
 		} else {
 			for( let j = 0; j < 4; j++ ) {
-				question.choices.push( { choice: `Choice ${ ( j + 1 ) }`, correct: false } );
+				question.choices.push( { choice: `Choice ${ ( j + 1 ) }` } );
 			}
-			question.choices[3].correct = true;
 		}
+		question.correct = randomChoice( question.choices.length );
 		questions.push( question );
 	}
 	return questions;

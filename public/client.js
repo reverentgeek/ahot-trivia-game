@@ -25,7 +25,8 @@ createApp( {
 			playerName: "",
 			id: 0,
 			countdown: 0,
-			players: []
+			players: [],
+			trivia: []
 		};
 	},
 	methods: {
@@ -51,6 +52,11 @@ createApp( {
 			this.state = state;
 			this.players = players;
 			this.countdown = countdown;
+		} );
+
+		socket.on( "trivia", ( trivia ) => {
+			console.log( trivia );
+			this.trivia = trivia;
 		} );
 	},
 	template: `
