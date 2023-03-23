@@ -4,6 +4,7 @@ import Home from "./components/home.js";
 import Join from "./components/join.js";
 import Waiting from "./components/waiting.js";
 import Countdown from "./components/countdown.js";
+import Quiz from "./components/quiz.js";
 
 const socket = io();
 const states = [
@@ -17,7 +18,8 @@ createApp( {
 		Home,
 		Join,
 		Waiting,
-		Countdown
+		Countdown,
+		Quiz
 	},
 	data() {
 		return {
@@ -26,7 +28,9 @@ createApp( {
 			id: 0,
 			countdown: 0,
 			players: [],
-			trivia: []
+			trivia: [],
+			currentQuestion: 0,
+			score: 0
 		};
 	},
 	methods: {
@@ -42,6 +46,14 @@ createApp( {
 				this.state = "waiting";
 				console.log( "received ack from server:", res );
 			} );
+		},
+		answer( index ) {
+			console.log( "player answered:", index );
+			this.currentQuestion++;
+		},
+		skip() {
+			console.log( "player skipped" );
+			this.currentQuestion++;
 		}
 	},
 	created() {
@@ -64,5 +76,6 @@ createApp( {
 	<Join v-if="state === 'join'" @registerPlayer="registerPlayer" />
 	<Waiting v-if="state === 'waiting'" :playerName="playerName" :id="id" />
 	<Countdown v-if="state === 'countdown'" :playerName="playerName" :id="id" :countdown="countdown" />
+	<Quiz v-if="state === 'active'" :playerName="playerName" :id="id" :countdown="countdown" :score="score" :question="trivia[currentQuestion]" :currentQuestionId="currentQuestion" @answer="answer" @skip="skip" />
 	`
 } ).mount( "#app" );

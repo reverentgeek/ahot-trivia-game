@@ -70,8 +70,6 @@ function start( server ) {
 
 	function initGame() {
 		trivia = quiz.getRandomTrivia().slice( 0, 50 );
-		console.log( trivia );
-		console.log( trivia.length );
 		sendTrivia();
 	}
 
