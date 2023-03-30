@@ -16,7 +16,7 @@ function start( server ) {
 	let state = states.home;
 	let countdown;
 	let countDownStart;
-	const players = [];
+	let players = [];
 	let trivia = [];
 
 	function sendState( socket ) {
@@ -85,12 +85,39 @@ function start( server ) {
 		socket.on( "join-game", ( { playerName }, callback ) => {
 			console.log( "Server received 'join-game' from player:", playerName );
 			const playerId = players.length + 1;
-			const player = { id: playerId, name: playerName };
+			const player = { id: playerId, name: playerName, score: 0, answers: [] };
 			callback( player );
 			players.push( player );
 			// TODO: Set the limit of the number of players?
 			if ( players.length >= 2 ) {
 				startGame();
+			}
+		} );
+
+		socket.on( "answer", ( { id, question, answer, skipped }, ack ) => {
+			const answerTime = Date.now();
+			const player = players.find( p => p.id === id );
+			if ( player ) {
+				const correct = trivia[question].correct === answer;
+				player.answers.push( {
+					question,
+					answer,
+					skipped,
+					answerTime,
+					correct
+				} );
+				// const totalQuestions = player.answers.length;
+				const totalCorrect = player.answers.filter( a => a.correct ).length;
+				const totalIncorrect = player.answers.filter( a => a.correct === false && a.skipped === false ).length;
+				const totalSkipped = player.answers.filter( a => a.skipped ).length;
+				const score = ( totalCorrect * 100 )
+					- ( totalSkipped * 25 )
+					- ( totalIncorrect * 50 );
+				player.score = score > 0 ? score : 0;
+				// Todo: calculate score
+				console.log( player );
+				// send score back to the client
+				ack( player.score );
 			}
 		} );
 

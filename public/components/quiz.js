@@ -28,6 +28,9 @@ export default {
 		<li class="mt-12">
 			<button class="rounded-full mt-4 mb-2 px-16 py-3 bg-red-400" @click="skip">Skip</button>
 		</li>
+		<li>
+			<span class="bg-orange-100 p-4 italic">Psst: correct choice is {{ question.correct }}</span>
+		</li>
 	</ul>
 `
 };

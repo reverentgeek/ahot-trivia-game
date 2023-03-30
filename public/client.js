@@ -49,10 +49,28 @@ createApp( {
 		},
 		answer( index ) {
 			console.log( "player answered:", index );
+			const data = {
+				id: this.id,
+				question: this.currentQuestion,
+				answer: index,
+				skipped: false
+			};
+			socket.emit( "answer", data, score => {
+				this.score = score;
+			} );
 			this.currentQuestion++;
 		},
 		skip() {
 			console.log( "player skipped" );
+			const data = {
+				id: this.id,
+				question: this.currentQuestion,
+				answer: -1,
+				skipped: true
+			};
+			socket.emit( "answer", data, score => {
+				this.score = score;
+			} );
 			this.currentQuestion++;
 		}
 	},
