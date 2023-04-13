@@ -5,6 +5,7 @@ import Join from "./components/join.js";
 import Waiting from "./components/waiting.js";
 import Countdown from "./components/countdown.js";
 import Quiz from "./components/quiz.js";
+import GameOver from "./components/gameover.js";
 
 const socket = io();
 const states = [
@@ -19,7 +20,8 @@ createApp( {
 		Join,
 		Waiting,
 		Countdown,
-		Quiz
+		Quiz,
+		GameOver
 	},
 	data() {
 		return {
@@ -95,5 +97,6 @@ createApp( {
 	<Waiting v-if="state === 'waiting'" :playerName="playerName" :id="id" />
 	<Countdown v-if="state === 'countdown'" :playerName="playerName" :id="id" :countdown="countdown" />
 	<Quiz v-if="state === 'active'" :playerName="playerName" :id="id" :countdown="countdown" :score="score" :question="trivia[currentQuestion]" :currentQuestionId="currentQuestion" @answer="answer" @skip="skip" />
+	<GameOver v-if="state === 'gameover'" :playerName="playerName" :score="score" @join="showJoin" />
 	`
 } ).mount( "#app" );

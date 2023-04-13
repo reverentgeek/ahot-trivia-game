@@ -39,10 +39,9 @@ function start( server ) {
 		server.io.emit( "trivia", trivia );
 	}
 
-	function doTheCountdown() {
+	function doTheCountdown( totalSeconds, callback ) {
 		countDownStart = Date.now();
 		const interval = 1000;
-		const totalSeconds = ( state === states.countdown ) ? 3 : 60;
 		let stepCount = 0;
 
 		const step = () => {
@@ -52,11 +51,7 @@ function start( server ) {
 			const secondsPassed = Math.round( diff / 1000 );
 			if ( ( totalSeconds - secondsPassed ) < 0 ) {
 				countdown = 0;
-				state = ( state === states.countdown ) ? states.active : states.gameover;
-				if ( state === states.active ) {
-					initGame();
-				}
-				return sendState();
+				return callback();
 			}
 			countdown = totalSeconds - secondsPassed;
 			sendState();
@@ -69,15 +64,25 @@ function start( server ) {
 	}
 
 	function initGame() {
+		state = states.active;
 		trivia = quiz.getRandomTrivia().slice( 0, 50 );
 		sendTrivia();
+		countdown = 60;
+		doTheCountdown( 60, endGame );
+		sendState();
 	}
 
 	function startGame() {
 		state = states.countdown;
 		countdown = 3;
 		sendState();
-		doTheCountdown();
+		doTheCountdown( 3, initGame );
+	}
+
+	function endGame() {
+		console.log( "game over" );
+		state = states.gameover;
+		sendState();
 	}
 
 	// we need to wait for the server to be ready, else `server.io` is undefined
