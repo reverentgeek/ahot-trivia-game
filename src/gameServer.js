@@ -72,6 +72,24 @@ function start( server ) {
 		sendState();
 	}
 
+	function updatePlayerRank() {
+		players.sort( ( p1, p2 ) => {
+			return p2.score - p1.score;
+		} );
+		let lastRank = 1;
+		let lastScore = players[0].score;
+		players[0].rank = lastRank;
+		for( let i = 0; i < players.length; i++ ) {
+			if ( players[i].score === lastScore ) {
+				players[i].rank = lastRank;
+			} else {
+				lastRank++;
+				lastScore = players[i].score;
+				players[i].rank = lastRank;
+			}
+		}
+	}
+
 	function startGame() {
 		state = states.countdown;
 		countdown = 3;
@@ -82,6 +100,7 @@ function start( server ) {
 	function endGame() {
 		console.log( "game over" );
 		state = states.gameover;
+		updatePlayerRank();
 		sendState();
 	}
 

@@ -97,6 +97,6 @@ createApp( {
 	<Waiting v-if="state === 'waiting'" :playerName="playerName" :id="id" />
 	<Countdown v-if="state === 'countdown'" :playerName="playerName" :id="id" :countdown="countdown" />
 	<Quiz v-if="state === 'active'" :playerName="playerName" :id="id" :countdown="countdown" :score="score" :question="trivia[currentQuestion]" :currentQuestionId="currentQuestion" @answer="answer" @skip="skip" />
-	<GameOver v-if="state === 'gameover'" :playerName="playerName" :score="score" @join="showJoin" />
+	<GameOver v-if="state === 'gameover'" :playerName="playerName" :id="id" :score="score" :players="players" @join="showJoin" />
 	`
 } ).mount( "#app" );
