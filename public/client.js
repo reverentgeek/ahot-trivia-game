@@ -92,6 +92,7 @@ createApp( {
 		} );
 	},
 	template: `
+	<h1 class="text-3xl font-bold text-center">AHOT Trivia Game</h1>
 	<Home v-if="state === 'home'" @join="showJoin" />
 	<Join v-if="state === 'join'" @registerPlayer="registerPlayer" />
 	<Waiting v-if="state === 'waiting'" :playerName="playerName" :id="id" />
