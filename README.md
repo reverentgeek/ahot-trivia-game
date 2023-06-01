@@ -45,3 +45,5 @@ All Hands On Tech Live multi-player trivia game built with Node.js, FastifyJS, a
 [ ] Add character avatar illustrations
 [ ] Add Sound Effects
 [ ] Add logging framework
+[ ] Add game rooms with up to (n) players per room
+
