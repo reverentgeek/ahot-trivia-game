@@ -12,6 +12,9 @@ const states = {
 	score: "score"
 };
 
+const COUNTDOWN_DEFAULT = 3;
+const GAME_TIME_DEFAULT = 60;
+
 function start( server ) {
 	let state = states.home;
 	let countdown;
@@ -67,8 +70,8 @@ function start( server ) {
 		state = states.active;
 		trivia = quiz.getRandomTrivia().slice( 0, 50 );
 		sendTrivia();
-		countdown = 60;
-		doTheCountdown( 60, endGame );
+		countdown = GAME_TIME_DEFAULT;
+		doTheCountdown( GAME_TIME_DEFAULT, endGame );
 		sendState();
 	}
 
@@ -92,9 +95,9 @@ function start( server ) {
 
 	function startGame() {
 		state = states.countdown;
-		countdown = 3;
+		countdown = COUNTDOWN_DEFAULT;
 		sendState();
-		doTheCountdown( 3, initGame );
+		doTheCountdown( COUNTDOWN_DEFAULT, initGame );
 	}
 
 	function endGame() {

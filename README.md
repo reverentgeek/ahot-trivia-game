@@ -37,3 +37,11 @@ All Hands On Tech Live multi-player trivia game built with Node.js, FastifyJS, a
 [x] Reset game
 [ ] Make it look pretty!
     [x] Add a spinner to "waiting..."
+[ ] Game finishes with a tie
+[ ] Game finishes with no score
+
+## Version 2 Tasks
+
+[ ] Add character avatar illustrations
+[ ] Add Sound Effects
+[ ] Add logging framework

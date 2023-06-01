@@ -5,7 +5,9 @@ export default {
 		countdown: Number
 	},
 	template: `
-	<h2 class="font-bold">Get Ready, {{ playerName }}! Game Starting in...</h2>
-	<p class="my-4 text-5xl content-center">{{ countdown }}</p>
+	<div class="mx-auto mt-8 text-center font-bold text-4xl">Get ready, {{ playerName }}!</div>
+	<div class="flex flex-col items-center justify-center text-center h-full">
+		<p class="text-8xl font-bold content-center">{{ countdown }}</p>
+	</div>
 `
 };

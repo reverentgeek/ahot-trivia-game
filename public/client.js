@@ -8,11 +8,6 @@ import Quiz from "./components/quiz.js";
 import GameOver from "./components/gameover.js";
 
 const socket = io();
-const states = [
-	"home", "join", "waiting",
-	"countdown", "active",
-	"gameover", "score"
-];
 
 createApp( {
 	components: {
