@@ -17,21 +17,24 @@ export default {
 		}
 	},
 	template: `
-	<div>{{ playerName }}</div>
-	<div>{{ score }}</div>
-	<div>{{ question.question }}</div>
-	<div>{{ countdown }}</div>
-	<ul>
-		<li v-for="(choice, index) of question.choices">
-			<button class="bg-slate-400 rounded-full mt-4 mb-2 px-16 py-3" @click="answer(index)">{{ ( choice.choice === "True" || choice.choice === "False" ) ? choice.choice : ( index + 1 ) }}</button>
-			<span v-if="choice.choice !== 'True' && choice.choice !== 'False'">{{ choice.choice }}</span>
-		</li>
-		<li class="mt-12">
-			<button class="rounded-full mt-4 mb-2 px-16 py-3 bg-red-400" @click="skip">Skip</button>
-		</li>
-		<li>
-			<span class="bg-orange-100 p-4 italic">Psst: correct choice is {{ question.correct }}</span>
-		</li>
-	</ul>
+	<div class="flex flex-row w-full">
+		<div class="flex-1">{{ playerName }}</div>
+		<div class="flex-1 text-center">{{ countdown }}</div>
+		<div class="flex-1 text-right">{{ score }}</div>
+	</div>
+	<div class="items-start">
+		<div class="text-2xl mt-6 text-slate-400">Question {{ currentQuestionId + 1 }}</div>
+		<div class="text-3xl my-6">{{ question.question }}</div>
+		<ul>
+			<li v-for="(choice, index) of question.choices">
+				<button class="bg-green-300 rounded-full mt-4 mb-2 px-16 py-3" @click="answer(index)">{{ ( choice.choice === "True" || choice.choice === "False" ) ? choice.choice : ( index + 1 ) }}</button>
+				<span class="ml-4 text-xl" v-if="choice.choice !== 'True' && choice.choice !== 'False'">{{ choice.choice }}</span>
+			</li>
+			<li class="mt-12">
+				<button class="rounded-full mt-4 mb-2 px-16 py-3 bg-red-400" @click="skip">Skip</button>
+			</li>
+		</ul>
+		<div class="bg-orange-300 p-4 mt-8 italic">Psst: correct choice is {{ question.correct }}</div>
+	</div>
 `
 };

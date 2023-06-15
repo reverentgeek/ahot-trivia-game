@@ -3,7 +3,7 @@ export default {
 		id: Number,
 		playerName: String
 	},
-	template: `<div class="container flex flex-col items-center">
+	template: `
 		<h2 class="font-bold text-xl mt-4 text-center">You're In!</h2>
 		<div class="my-4 border-solid border-orange-600 bg-orange-300 p-6">
 			<p class="p-3">Thanks for joining, <span class="font-bold">{{ playerName }}</span>!</p>
@@ -16,6 +16,5 @@ export default {
 				<span class="p-1">Waiting for other players to join...</span>
 			</div>
 		</div>
-	</div>
 	`
 };

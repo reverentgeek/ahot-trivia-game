@@ -5,7 +5,7 @@
 
   font-style: normal;
 
-  font-display: var(--fontsource-display, swap);
+  font-display: swap;
 
   font-weight: 100;
 
@@ -21,7 +21,7 @@
 
   font-style: normal;
 
-  font-display: var(--fontsource-display, swap);
+  font-display: swap;
 
   font-weight: 100;
 
@@ -37,7 +37,7 @@
 
   font-style: normal;
 
-  font-display: var(--fontsource-display, swap);
+  font-display: swap;
 
   font-weight: 100;
 
@@ -53,7 +53,7 @@
 
   font-style: normal;
 
-  font-display: var(--fontsource-display, swap);
+  font-display: swap;
 
   font-weight: 100;
 
@@ -69,7 +69,7 @@
 
   font-style: normal;
 
-  font-display: var(--fontsource-display, swap);
+  font-display: swap;
 
   font-weight: 100;
 
@@ -85,7 +85,7 @@
 
   font-style: normal;
 
-  font-display: var(--fontsource-display, swap);
+  font-display: swap;
 
   font-weight: 200;
 
@@ -101,7 +101,7 @@
 
   font-style: normal;
 
-  font-display: var(--fontsource-display, swap);
+  font-display: swap;
 
   font-weight: 200;
 
@@ -117,7 +117,7 @@
 
   font-style: normal;
 
-  font-display: var(--fontsource-display, swap);
+  font-display: swap;
 
   font-weight: 200;
 
@@ -133,7 +133,7 @@
 
   font-style: normal;
 
-  font-display: var(--fontsource-display, swap);
+  font-display: swap;
 
   font-weight: 200;
 
@@ -149,7 +149,7 @@
 
   font-style: normal;
 
-  font-display: var(--fontsource-display, swap);
+  font-display: swap;
 
   font-weight: 200;
 
@@ -165,7 +165,7 @@
 
   font-style: normal;
 
-  font-display: var(--fontsource-display, swap);
+  font-display: swap;
 
   font-weight: 300;
 
@@ -181,7 +181,7 @@
 
   font-style: normal;
 
-  font-display: var(--fontsource-display, swap);
+  font-display: swap;
 
   font-weight: 300;
 
@@ -197,7 +197,7 @@
 
   font-style: normal;
 
-  font-display: var(--fontsource-display, swap);
+  font-display: swap;
 
   font-weight: 300;
 
@@ -213,7 +213,7 @@
 
   font-style: normal;
 
-  font-display: var(--fontsource-display, swap);
+  font-display: swap;
 
   font-weight: 300;
 
@@ -229,7 +229,7 @@
 
   font-style: normal;
 
-  font-display: var(--fontsource-display, swap);
+  font-display: swap;
 
   font-weight: 300;
 
@@ -245,7 +245,7 @@
 
   font-style: normal;
 
-  font-display: var(--fontsource-display, swap);
+  font-display: swap;
 
   font-weight: 400;
 
@@ -261,7 +261,7 @@
 
   font-style: normal;
 
-  font-display: var(--fontsource-display, swap);
+  font-display: swap;
 
   font-weight: 400;
 
@@ -277,7 +277,7 @@
 
   font-style: normal;
 
-  font-display: var(--fontsource-display, swap);
+  font-display: swap;
 
   font-weight: 400;
 
@@ -293,7 +293,7 @@
 
   font-style: normal;
 
-  font-display: var(--fontsource-display, swap);
+  font-display: swap;
 
   font-weight: 400;
 
@@ -309,7 +309,7 @@
 
   font-style: normal;
 
-  font-display: var(--fontsource-display, swap);
+  font-display: swap;
 
   font-weight: 400;
 
@@ -325,7 +325,7 @@
 
   font-style: normal;
 
-  font-display: var(--fontsource-display, swap);
+  font-display: swap;
 
   font-weight: 500;
 
@@ -341,7 +341,7 @@
 
   font-style: normal;
 
-  font-display: var(--fontsource-display, swap);
+  font-display: swap;
 
   font-weight: 500;
 
@@ -357,7 +357,7 @@
 
   font-style: normal;
 
-  font-display: var(--fontsource-display, swap);
+  font-display: swap;
 
   font-weight: 500;
 
@@ -373,7 +373,7 @@
 
   font-style: normal;
 
-  font-display: var(--fontsource-display, swap);
+  font-display: swap;
 
   font-weight: 500;
 
@@ -389,7 +389,7 @@
 
   font-style: normal;
 
-  font-display: var(--fontsource-display, swap);
+  font-display: swap;
 
   font-weight: 500;
 
@@ -405,7 +405,7 @@
 
   font-style: normal;
 
-  font-display: var(--fontsource-display, swap);
+  font-display: swap;
 
   font-weight: 600;
 
@@ -421,7 +421,7 @@
 
   font-style: normal;
 
-  font-display: var(--fontsource-display, swap);
+  font-display: swap;
 
   font-weight: 600;
 
@@ -437,7 +437,7 @@
 
   font-style: normal;
 
-  font-display: var(--fontsource-display, swap);
+  font-display: swap;
 
   font-weight: 600;
 
@@ -453,7 +453,7 @@
 
   font-style: normal;
 
-  font-display: var(--fontsource-display, swap);
+  font-display: swap;
 
   font-weight: 600;
 
@@ -469,7 +469,7 @@
 
   font-style: normal;
 
-  font-display: var(--fontsource-display, swap);
+  font-display: swap;
 
   font-weight: 600;
 
@@ -485,7 +485,7 @@
 
   font-style: normal;
 
-  font-display: var(--fontsource-display, swap);
+  font-display: swap;
 
   font-weight: 700;
 
@@ -501,7 +501,7 @@
 
   font-style: normal;
 
-  font-display: var(--fontsource-display, swap);
+  font-display: swap;
 
   font-weight: 700;
 
@@ -517,7 +517,7 @@
 
   font-style: normal;
 
-  font-display: var(--fontsource-display, swap);
+  font-display: swap;
 
   font-weight: 700;
 
@@ -533,7 +533,7 @@
 
   font-style: normal;
 
-  font-display: var(--fontsource-display, swap);
+  font-display: swap;
 
   font-weight: 700;
 
@@ -549,7 +549,7 @@
 
   font-style: normal;
 
-  font-display: var(--fontsource-display, swap);
+  font-display: swap;
 
   font-weight: 700;
 
@@ -565,7 +565,7 @@
 
   font-style: normal;
 
-  font-display: var(--fontsource-display, swap);
+  font-display: swap;
 
   font-weight: 800;
 
@@ -581,7 +581,7 @@
 
   font-style: normal;
 
-  font-display: var(--fontsource-display, swap);
+  font-display: swap;
 
   font-weight: 800;
 
@@ -597,7 +597,7 @@
 
   font-style: normal;
 
-  font-display: var(--fontsource-display, swap);
+  font-display: swap;
 
   font-weight: 800;
 
@@ -613,7 +613,7 @@
 
   font-style: normal;
 
-  font-display: var(--fontsource-display, swap);
+  font-display: swap;
 
   font-weight: 800;
 
@@ -629,7 +629,7 @@
 
   font-style: normal;
 
-  font-display: var(--fontsource-display, swap);
+  font-display: swap;
 
   font-weight: 800;
 
@@ -645,7 +645,7 @@
 
   font-style: normal;
 
-  font-display: var(--fontsource-display, swap);
+  font-display: swap;
 
   font-weight: 900;
 
@@ -661,7 +661,7 @@
 
   font-style: normal;
 
-  font-display: var(--fontsource-display, swap);
+  font-display: swap;
 
   font-weight: 900;
 
@@ -677,7 +677,7 @@
 
   font-style: normal;
 
-  font-display: var(--fontsource-display, swap);
+  font-display: swap;
 
   font-weight: 900;
 
@@ -693,7 +693,7 @@
 
   font-style: normal;
 
-  font-display: var(--fontsource-display, swap);
+  font-display: swap;
 
   font-weight: 900;
 
@@ -709,7 +709,7 @@
 
   font-style: normal;
 
-  font-display: var(--fontsource-display, swap);
+  font-display: swap;
 
   font-weight: 900;
 
@@ -1284,8 +1284,17 @@ video {
   margin-bottom: 1rem;
 }
 
+.my-6 {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
 .mb-2 {
   margin-bottom: 0.5rem;
+}
+
+.ml-4 {
+  margin-left: 1rem;
 }
 
 .mr-2 {
@@ -1302,6 +1311,10 @@ video {
 
 .mt-4 {
   margin-top: 1rem;
+}
+
+.mt-6 {
+  margin-top: 1.5rem;
 }
 
 .mt-8 {
@@ -1360,12 +1373,20 @@ video {
   animation: wiggle 2s ease-in-out infinite;
 }
 
+.flex-row {
+  flex-direction: row;
+}
+
 .flex-col {
   flex-direction: column;
 }
 
 .content-center {
   align-content: center;
+}
+
+.items-start {
+  align-items: flex-start;
 }
 
 .items-center {
@@ -1405,11 +1426,6 @@ video {
 .bg-green-300 {
   --tw-bg-opacity: 1;
   background-color: rgb(134 239 172 / var(--tw-bg-opacity));
-}
-
-.bg-orange-100 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 237 213 / var(--tw-bg-opacity));
 }
 
 .bg-orange-300 {
@@ -1481,6 +1497,15 @@ video {
   text-align: center;
 }
 
+.text-right {
+  text-align: right;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
@@ -1512,6 +1537,11 @@ video {
 .text-gray-300 {
   --tw-text-opacity: 1;
   color: rgb(209 213 219 / var(--tw-text-opacity));
+}
+
+.text-slate-400 {
+  --tw-text-opacity: 1;
+  color: rgb(148 163 184 / var(--tw-text-opacity));
 }
 
 .filter {
