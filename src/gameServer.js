@@ -94,6 +94,7 @@ function start( server ) {
 	}
 
 	function startGame() {
+		server.log.info( { event: "game-start" } );
 		state = states.countdown;
 		countdown = COUNTDOWN_DEFAULT;
 		sendState();
@@ -101,7 +102,7 @@ function start( server ) {
 	}
 
 	function endGame() {
-		console.log( "game over" );
+		server.log.info( { event: "game-over" } );
 		state = states.gameover;
 		updatePlayerRank();
 		sendState();
@@ -110,7 +111,7 @@ function start( server ) {
 	// we need to wait for the server to be ready, else `server.io` is undefined
 	server.io.on( "connection", ( socket ) => {
 		socket.on( "join-game", ( { playerName }, callback ) => {
-			console.log( "Server received 'join-game' from player:", playerName );
+			server.log.info( { event: "join-game", playerName } );
 			const playerId = players.length + 1;
 			const player = { id: playerId, name: playerName, score: 0, answers: [] };
 			callback( player );
@@ -141,14 +142,12 @@ function start( server ) {
 					- ( totalSkipped * 25 )
 					- ( totalIncorrect * 50 );
 				player.score = score > 0 ? score : 0;
-				// Todo: calculate score
-				console.log( player );
-				// send score back to the client
+				server.log.info( { event: "answer", id, question, answer, skipped, score: player.score, name: player.name } );
 				ack( player.score );
 			}
 		} );
 
-		console.log( "socket connection made", socket.id );
+		server.log.info( { event: "connection", id: socket.id } );
 		sendState( socket );
 	} );
 

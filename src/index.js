@@ -14,8 +14,26 @@ const gameServer = require( "./gameServer" );
 // Path to views folder
 const views = path.join( __dirname, "views" );
 
+// Set up logging based on environment
+const environment = process.env.NODE_ENV ?? "production";
+const envToLogger = {
+	development: {
+		transport: {
+			target: "pino-pretty",
+			options: {
+				translateTime: "HH:MM:ss Z",
+				ignore: "pid,hostname",
+			},
+		},
+	},
+	production: true,
+	test: false,
+};
+
 // Create the Fastify server
-const server = fastify( { logger: true } );
+const server = fastify( {
+	logger: envToLogger[environment] ?? true
+} );
 
 // Register the socket.io plugin
 server.register( fastifyIO );

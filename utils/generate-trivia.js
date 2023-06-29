@@ -29,5 +29,5 @@ function generateRandomQuestions( numberOfQuestions ) {
 
 const questions = generateRandomQuestions( 200 );
 const triviaFile = path.join( __dirname, "mockTrivia.json" );
-// console.log( triviaFile );
+
 fs.writeJSON( triviaFile, questions, { spaces: 2 } ).then( console.log( "finished." ) );
