@@ -19,8 +19,8 @@ export default {
 	template: `
 	<div class="flex flex-row w-full">
 		<div class="flex-1">{{ playerName }}</div>
-		<div class="flex-1 text-center">{{ countdown }}</div>
-		<div class="flex-1 text-right">{{ score }}</div>
+		<div class="flex-1 text-center"><span>Time:</span> {{ countdown }}</div>
+		<div class="flex-1 text-right"><span>Score:</span> {{ score }}</div>
 	</div>
 	<div class="items-start">
 		<div class="text-2xl mt-6 text-slate-400">Question {{ currentQuestionId + 1 }}</div>

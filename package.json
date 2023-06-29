@@ -23,7 +23,7 @@
 	"license": "MIT",
 	"devDependencies": {
 		"eslint": "^8.24.0",
-		"eslint-config-reverentgeek": "^3.2.2",
+		"eslint-config-reverentgeek": "^4.0.0",
 		"nodemon": "^2.0.20",
 		"tailwindcss": "^3.2.0"
 	},
