@@ -1,0 +1,902 @@
+[
+  {
+    "question": "Who is considered the father of computer science?",
+    "choices": [
+      {
+        "choice": "Alan Turing"
+      },
+      {
+        "choice": "Bill Gates"
+      },
+      {
+        "choice": "Steve Jobs"
+      },
+      {
+        "choice": "Mark Zuckerberg"
+      }
+    ],
+    "correct": 0
+  },
+  {
+    "question": "What does the abbreviation \"CPU\" stand for?",
+    "choices": [
+      {
+        "choice": "Central Processing Unit"
+      },
+      {
+        "choice": "Computer Processing Unit"
+      },
+      {
+        "choice": "Core Processing Unit"
+      },
+      {
+        "choice": "Control Processing Unit"
+      }
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Which company developed the first commercially successful personal computer?",
+    "choices": [
+      {
+        "choice": "IBM"
+      },
+      {
+        "choice": "Apple"
+      },
+      {
+        "choice": "Microsoft"
+      },
+      {
+        "choice": "Dell"
+      }
+    ],
+    "correct": 0
+  },
+  {
+    "question": "What year was the first iPhone released?",
+    "choices": [
+      {
+        "choice": "2007"
+      },
+      {
+        "choice": "2005"
+      },
+      {
+        "choice": "2010"
+      },
+      {
+        "choice": "2012"
+      }
+    ],
+    "correct": 0
+  },
+  {
+    "question": "What does the term \"URL\" stand for?",
+    "choices": [
+      {
+        "choice": "Uniform Resource Locator"
+      },
+      {
+        "choice": "Universal Routing Language"
+      },
+      {
+        "choice": "Unique Resource Link"
+      },
+      {
+        "choice": "User Referral Link"
+      }
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Which programming language was developed by Guido van Rossum?",
+    "choices": [
+      {
+        "choice": "Python"
+      },
+      {
+        "choice": "Java"
+      },
+      {
+        "choice": "C++"
+      },
+      {
+        "choice": "Ruby"
+      }
+    ],
+    "correct": 0
+  },
+  {
+    "question": "What is the smallest unit of digital information?",
+    "choices": [
+      {
+        "choice": "Bit"
+      },
+      {
+        "choice": "Byte"
+      },
+      {
+        "choice": "Megabyte"
+      },
+      {
+        "choice": "Gigabyte"
+      }
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Which company developed the first graphical web browser?",
+    "choices": [
+      {
+        "choice": "Netscape"
+      },
+      {
+        "choice": "Microsoft"
+      },
+      {
+        "choice": "Google"
+      },
+      {
+        "choice": "Apple"
+      }
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Who is the co-founder of Apple Inc. alongside Steve Jobs?",
+    "choices": [
+      {
+        "choice": "Steve Wozniak"
+      },
+      {
+        "choice": "Bill Gates"
+      },
+      {
+        "choice": "Larry Page"
+      },
+      {
+        "choice": "Elon Musk"
+      }
+    ],
+    "correct": 0
+  },
+  {
+    "question": "What does the acronym \"HTML\" stand for?",
+    "choices": [
+      {
+        "choice": "HyperText Markup Language"
+      },
+      {
+        "choice": "High-Tech Machine Language"
+      },
+      {
+        "choice": "Hyperlink and Text Markup Language"
+      },
+      {
+        "choice": "Hypertext Modeling Language"
+      }
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Which programming language is commonly used for developing Android apps?",
+    "choices": [
+      {
+        "choice": "Java"
+      },
+      {
+        "choice": "Python"
+      },
+      {
+        "choice": "C#"
+      },
+      {
+        "choice": "Swift"
+      }
+    ],
+    "correct": 0
+  },
+  {
+    "question": "What is the most widely used programming language in the world?",
+    "choices": [
+      {
+        "choice": "JavaScript"
+      },
+      {
+        "choice": "C++"
+      },
+      {
+        "choice": "Ruby"
+      },
+      {
+        "choice": "PHP"
+      }
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Which company is known for its gaming console called PlayStation?",
+    "choices": [
+      {
+        "choice": "Sony"
+      },
+      {
+        "choice": "Microsoft"
+      },
+      {
+        "choice": "Nintendo"
+      },
+      {
+        "choice": "Sega"
+      }
+    ],
+    "correct": 0
+  },
+  {
+    "question": "What is the primary function of an operating system?",
+    "choices": [
+      {
+        "choice": "Manage computer hardware and software resources"
+      },
+      {
+        "choice": "Run applications"
+      },
+      {
+        "choice": "Connect to the internet"
+      },
+      {
+        "choice": "Store files and folders"
+      }
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Who is often credited with inventing the computer mouse?",
+    "choices": [
+      {
+        "choice": "Douglas Engelbart"
+      },
+      {
+        "choice": "Bill Gates"
+      },
+      {
+        "choice": "Steve Jobs"
+      },
+      {
+        "choice": "Tim Berners-Lee"
+      }
+    ],
+    "correct": 0
+  },
+  {
+    "question": "What is the name of Google's mobile operating system?",
+    "choices": [
+      {
+        "choice": "Android"
+      },
+      {
+        "choice": "iOS"
+      },
+      {
+        "choice": "Windows Mobile"
+      },
+      {
+        "choice": "Blackberry OS"
+      }
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Which programming language is often used for artificial intelligence and machine learning?",
+    "choices": [
+      {
+        "choice": "Python"
+      },
+      {
+        "choice": "Java"
+      },
+      {
+        "choice": "C#"
+      },
+      {
+        "choice": "Ruby"
+      }
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Who developed the first programming language called Fortran?",
+    "choices": [
+      {
+        "choice": "John Backus and a team of IBM researchers"
+      },
+      {
+        "choice": "Bill Gates and Paul Allen"
+      },
+      {
+        "choice": "Dennis Ritchie and Ken Thompson"
+      },
+      {
+        "choice": "Guido van Rossum"
+      }
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Which programming language is used to create websites?",
+    "choices": [
+      {
+        "choice": "HTML"
+      },
+      {
+        "choice": "CSS"
+      },
+      {
+        "choice": "JavaScript"
+      },
+      {
+        "choice": "PHP"
+      }
+    ],
+    "correct": 0
+  },
+  {
+    "question": "What does the acronym \"LAN\" stand for?",
+    "choices": [
+      {
+        "choice": "Local Area Network"
+      },
+      {
+        "choice": "Long Area Network"
+      },
+      {
+        "choice": "LocalArea Node"
+      },
+      {
+        "choice": "Local Access Network"
+      }
+    ],
+    "correct": 0
+  },
+  {
+    "question": "What was the first widely-used web browser?",
+    "choices": [
+      {
+        "choice": "Mosaic"
+      },
+      {
+        "choice": "Internet Explorer"
+      },
+      {
+        "choice": "Netscape Navigator"
+      },
+      {
+        "choice": "Safari"
+      }
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Which company developed the Java programming language?",
+    "choices": [
+      {
+        "choice": "Sun Microsystems"
+      },
+      {
+        "choice": "Apple"
+      },
+      {
+        "choice": "Microsoft"
+      },
+      {
+        "choice": "IBM"
+      }
+    ],
+    "correct": 0
+  },
+  {
+    "question": "What is the process of converting source code into machine code called?",
+    "choices": [
+      {
+        "choice": "Compilation"
+      },
+      {
+        "choice": "Interpretation"
+      },
+      {
+        "choice": "Debugging"
+      },
+      {
+        "choice": "Documentation"
+      }
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Which social media platform was founded by Mark Zuckerberg?",
+    "choices": [
+      {
+        "choice": "Facebook"
+      },
+      {
+        "choice": "Twitter"
+      },
+      {
+        "choice": "Instagram"
+      },
+      {
+        "choice": "LinkedIn"
+      }
+    ],
+    "correct": 0
+  },
+  {
+    "question": "What does the acronym \"VPN\" stand for?",
+    "choices": [
+      {
+        "choice": "Virtual Private Network"
+      },
+      {
+        "choice": "Virtual Personal Network"
+      },
+      {
+        "choice": "Very Powerful Network"
+      },
+      {
+        "choice": "Virtual Public Network"
+      }
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Which programming language is known for its use in statistical analysis and data science?",
+    "choices": [
+      {
+        "choice": "R"
+      },
+      {
+        "choice": "Python"
+      },
+      {
+        "choice": "Java"
+      },
+      {
+        "choice": "C++"
+      }
+    ],
+    "correct": 0
+  },
+  {
+    "question": "What does the acronym \"PDF\" stand for?",
+    "choices": [
+      {
+        "choice": "Portable Document Format"
+      },
+      {
+        "choice": "Personal Data File"
+      },
+      {
+        "choice": "Program Development File"
+      },
+      {
+        "choice": "Print Document File"
+      }
+    ],
+    "correct": 0
+  },
+  {
+    "question": "What is the term used to describe a malicious software that encrypts files and demands a ransom?",
+    "choices": [
+      {
+        "choice": "Ransomware"
+      },
+      {
+        "choice": "Spyware"
+      },
+      {
+        "choice": "Malware"
+      },
+      {
+        "choice": "Adware"
+      }
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Which company developed the first commercial microprocessor?",
+    "choices": [
+      {
+        "choice": "Intel"
+      },
+      {
+        "choice": "AMD"
+      },
+      {
+        "choice": "IBM"
+      },
+      {
+        "choice": "Apple"
+      }
+    ],
+    "correct": 0
+  },
+  {
+    "question": "What is the term for a small piece of code that performs a specific task and can be reused in multiple programs?",
+    "choices": [
+      {
+        "choice": "Function"
+      },
+      {
+        "choice": "Module"
+      },
+      {
+        "choice": "Class"
+      },
+      {
+        "choice": "Method"
+      }
+    ],
+    "correct": 0
+  },
+  {
+    "question": "What is the term for the practice of copying someone else's work and presenting it as your own?",
+    "choices": [
+      {
+        "choice": "Plagiarism"
+      },
+      {
+        "choice": "Hacking"
+      },
+      {
+        "choice": "Phishing"
+      },
+      {
+        "choice": "Piracy"
+      }
+    ],
+    "correct": 0
+  },
+  {
+    "question": "What does the term \"WYSIWYG\" stand for?",
+    "choices": [
+      {
+        "choice": "What You See Is What You Get"
+      },
+      {
+        "choice": "Where You Search Is Where You Go"
+      },
+      {
+        "choice": "Who You Serve Is What You Gain"
+      },
+      {
+        "choice": "Why You Study Is What You Get"
+      }
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Which programming language is often used for game development?",
+    "choices": [
+      {
+        "choice": "C++"
+      },
+      {
+        "choice": "Python"
+      },
+      {
+        "choice": "JavaScript"
+      },
+      {
+        "choice": "Ruby"
+      }
+    ],
+    "correct": 0
+  },
+  {
+    "question": "What is the term for a network of interconnected devices that can communicate and share resources without a centralized server?",
+    "choices": [
+      {
+        "choice": "Peer-to-peer network"
+      },
+      {
+        "choice": "Client-server network"
+      },
+      {
+        "choice": "Local network"
+      },
+      {
+        "choice": "Wide area network"
+      }
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Which company developed the first computer mouse?",
+    "choices": [
+      {
+        "choice": "Xerox"
+      },
+      {
+        "choice": "IBM"
+      },
+      {
+        "choice": "Microsoft"
+      },
+      {
+        "choice": "Apple"
+      }
+    ],
+    "correct": 0
+  },
+  {
+    "question": "What is the term for a malicious program that disguises itself as a legitimate software?",
+    "choices": [
+      {
+        "choice": "Trojan horse"
+      },
+      {
+        "choice": "Virus"
+      },
+      {
+        "choice": "Worm"
+      },
+      {
+        "choice": "Spyware"
+      }
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Which programming language is often used for web scraping and data extraction?",
+    "choices": [
+      {
+        "choice": "Python"
+      },
+      {
+        "choice": "Java"
+      },
+      {
+        "choice": "C#"
+      },
+      {
+        "choice": "PHP"
+      }
+    ],
+    "correct": 0
+  },
+  {
+    "question": "What is the term for the practice of writing code that is easy to understand and maintain?",
+    "choices": [
+      {
+        "choice": "Readability"
+      },
+      {
+        "choice": "Efficiency"
+      },
+      {
+        "choice": "Scalability"
+      },
+      {
+        "choice": "Reliability"
+      }
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Which company developed the Linux operating system?",
+    "choices": [
+      {
+        "choice": "Linus Torvalds"
+      },
+      {
+        "choice": "Microsoft"
+      },
+      {
+        "choice": "Apple"
+      },
+      {
+        "choice": "IBM"
+      }
+    ],
+    "correct": 0
+  },
+  {
+    "question": "What is the term for a type of software that simulates a physical computer within another computer?",
+    "choices": [
+      {
+        "choice": "Virtual machine"
+      },
+      {
+        "choice": "Emulator"
+      },
+      {
+        "choice": "Compiler"
+      },
+      {
+        "choice": "Debugger"
+      }
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Which programming language is known for its use in scientific and numerical computing?",
+    "choices": [
+      {
+        "choice": "MATLAB"
+      },
+      {
+        "choice": "Ruby"
+      },
+      {
+        "choice": "Swift"
+      },
+      {
+        "choice": "Perl"
+      }
+    ],
+    "correct": 0
+  },
+  {
+    "question": "What is the term for a technique that involves searching for vulnerabilities in computer systems to exploit them?",
+    "choices": [
+      {
+        "choice": "Hacking"
+      },
+      {
+        "choice": "Phishing"
+      },
+      {
+        "choice": "Spoofing"
+      },
+      {
+        "choice": "Brute forcing"
+      }
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Which company developed the Windows operating system?",
+    "choices": [
+      {
+        "choice": "Microsoft"
+      },
+      {
+        "choice": "Apple"
+      },
+      {
+        "choice": "IBM"
+      },
+      {
+        "choice": "Google"
+      }
+    ],
+    "correct": 0
+  },
+  {
+    "question": "What is the term for a type of attack that floods a network or server with excessive traffic, causing it to become unresponsive?",
+    "choices": [
+      {
+        "choice": "DDoS (Distributed Denial of Service) attack"
+      },
+      {
+        "choice": "SQL injection attack"
+      },
+      {
+        "choice": "Phishing attack"
+      },
+      {
+        "choice": "Man-in-the-middle attack"
+      }
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Which programming language is known for its use in system administration and scripting?",
+    "choices": [
+      {
+        "choice": "Bash"
+      },
+      {
+        "choice": "Ruby"
+      },
+      {
+        "choice": "C++"
+      },
+      {
+        "choice": "Swift"
+      }
+    ],
+    "correct": 0
+  },
+  {
+    "question": "What is the term for a small piece of text stored on a user's computer by a website to remember user preferences or login information?",
+    "choices": [
+      {
+        "choice": "Cookie"
+      },
+      {
+        "choice": "Cache"
+      },
+      {
+        "choice": "Firewall"
+      },
+      {
+        "choice": "Virus"
+      }
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Which company developed the first commercial spreadsheet software?",
+    "choices": [
+      {
+        "choice": "VisiCorp"
+      },
+      {
+        "choice": "Microsoft"
+      },
+      {
+        "choice": "IBM"
+      },
+      {
+        "choice": "Lotus Development Corporation"
+      }
+    ],
+    "correct": 0
+  },
+  {
+    "question": "What is the term for a set of rules or protocols that govern the exchange of data over a network?",
+    "choices": [
+      {
+        "choice": "Protocol"
+      },
+      {
+        "choice": "Algorithm"
+      },
+      {
+        "choice": "API (Application Programming Interface)"
+      },
+      {
+        "choice": "Firewall"
+      }
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Which programming language is often used for building web applications and dynamic websites?",
+    "choices": [
+      {
+        "choice": "PHP"
+      },
+      {
+        "choice": "Python"
+      },
+      {
+        "choice": "Java"
+      },
+      {
+        "choice": "C#"
+      }
+    ],
+    "correct": 0
+  },
+  {
+    "question": "What is the term for the process of making changes to a software program to improve its performance, fix bugs, or add new features?",
+    "choices": [
+      {
+        "choice": "Software development"
+      },
+      {
+        "choice": "Software testing"
+      },
+      {
+        "choice": "Software deployment"
+      },
+      {
+        "choice": "Software documentation"
+      }
+    ],
+    "correct": 0
+  }
+]

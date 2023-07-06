@@ -1,0 +1,299 @@
+Who is considered the father of computer science?
+a) Alan Turing
+b) Bill Gates
+c) Steve Jobs
+d) Mark Zuckerberg
+
+What does the abbreviation "CPU" stand for?
+a) Central Processing Unit
+b) Computer Processing Unit
+c) Core Processing Unit
+d) Control Processing Unit
+
+Which company developed the first commercially successful personal computer?
+a) IBM
+b) Apple
+c) Microsoft
+d) Dell
+
+What year was the first iPhone released?
+a) 2007
+b) 2005
+c) 2010
+d) 2012
+
+What does the term "URL" stand for?
+a) Uniform Resource Locator
+b) Universal Routing Language
+c) Unique Resource Link
+d) User Referral Link
+
+Which programming language was developed by Guido van Rossum?
+a) Python
+b) Java
+c) C++
+d) Ruby
+
+What is the smallest unit of digital information?
+a) Bit
+b) Byte
+c) Megabyte
+d) Gigabyte
+
+Which company developed the first graphical web browser?
+a) Netscape
+b) Microsoft
+c) Google
+d) Apple
+
+Who is the co-founder of Apple Inc. alongside Steve Jobs?
+a) Steve Wozniak
+b) Bill Gates
+c) Larry Page
+d) Elon Musk
+
+What does the acronym "HTML" stand for?
+a) HyperText Markup Language
+b) High-Tech Machine Language
+c) Hyperlink and Text Markup Language
+d) Hypertext Modeling Language
+
+Which programming language is commonly used for developing Android apps?
+a) Java
+b) Python
+c) C#
+d) Swift
+
+What is the most widely used programming language in the world?
+a) JavaScript
+b) C++
+c) Ruby
+d) PHP
+
+Which company is known for its gaming console called PlayStation?
+a) Sony
+b) Microsoft
+c) Nintendo
+d) Sega
+
+What is the primary function of an operating system?
+a) Manage computer hardware and software resources
+b) Run applications
+c) Connect to the internet
+d) Store files and folders
+
+Who is often credited with inventing the computer mouse?
+a) Douglas Engelbart
+b) Bill Gates
+c) Steve Jobs
+d) Tim Berners-Lee
+
+What is the name of Google's mobile operating system?
+a) Android
+b) iOS
+c) Windows Mobile
+d) Blackberry OS
+
+Which programming language is often used for artificial intelligence and machine learning?
+a) Python
+b) Java
+c) C#
+d) Ruby
+
+Who developed the first programming language called Fortran?
+a) John Backus and a team of IBM researchers
+b) Bill Gates and Paul Allen
+c) Dennis Ritchie and Ken Thompson
+d) Guido van Rossum
+
+Which programming language is used to create websites?
+a) HTML
+b) CSS
+c) JavaScript
+d) PHP
+
+What does the acronym "LAN" stand for?
+a) Local Area Network
+b) Long Area Network
+c) LocalArea Node
+d) Local Access Network
+
+What was the first widely-used web browser?
+a) Mosaic
+b) Internet Explorer
+c) Netscape Navigator
+d) Safari
+
+Which company developed the Java programming language?
+a) Sun Microsystems
+b) Apple
+c) Microsoft
+d) IBM
+
+What is the process of converting source code into machine code called?
+a) Compilation
+b) Interpretation
+c) Debugging
+d) Documentation
+
+Which social media platform was founded by Mark Zuckerberg?
+a) Facebook
+b) Twitter
+c) Instagram
+d) LinkedIn
+
+What does the acronym "VPN" stand for?
+a) Virtual Private Network
+b) Virtual Personal Network
+c) Very Powerful Network
+d) Virtual Public Network
+
+Which programming language is known for its use in statistical analysis and data science?
+a) R
+b) Python
+c) Java
+d) C++
+
+What does the acronym "PDF" stand for?
+a) Portable Document Format
+b) Personal Data File
+c) Program Development File
+d) Print Document File
+
+What is the term used to describe a malicious software that encrypts files and demands a ransom?
+a) Ransomware
+b) Spyware
+c) Malware
+d) Adware
+
+Which company developed the first commercial microprocessor?
+a) Intel
+b) AMD
+c) IBM
+d) Apple
+
+What is the term for a small piece of code that performs a specific task and can be reused in multiple programs?
+a) Function
+b) Module
+c) Class
+d) Method
+
+What is the term for the practice of copying someone else's work and presenting it as your own?
+a) Plagiarism
+b) Hacking
+c) Phishing
+d) Piracy
+
+What does the term "WYSIWYG" stand for?
+a) What You See Is What You Get
+b) Where You Search Is Where You Go
+c) Who You Serve Is What You Gain
+d) Why You Study Is What You Get
+
+Which programming language is often used for game development?
+a) C++
+b) Python
+c) JavaScript
+d) Ruby
+
+What is the term for a network of interconnected devices that can communicate and share resources without a centralized server?
+a) Peer-to-peer network
+b) Client-server network
+c) Local network
+d) Wide area network
+
+Which company developed the first computer mouse?
+a) Xerox
+b) IBM
+c) Microsoft
+d) Apple
+
+What is the term for a malicious program that disguises itself as a legitimate software?
+a) Trojan horse
+b) Virus
+c) Worm
+d) Spyware
+
+Which programming language is often used for web scraping and data extraction?
+a) Python
+b) Java
+c) C#
+d) PHP
+
+What is the term for the practice of writing code that is easy to understand and maintain?
+a) Readability
+b) Efficiency
+c) Scalability
+d) Reliability
+
+Which company developed the Linux operating system?
+a) Linus Torvalds
+b) Microsoft
+c) Apple
+d) IBM
+
+What is the term for a type of software that simulates a physical computer within another computer?
+a) Virtual machine
+b) Emulator
+c) Compiler
+d) Debugger
+
+Which programming language is known for its use in scientific and numerical computing?
+a) MATLAB
+b) Ruby
+c) Swift
+d) Perl
+
+What is the term for a technique that involves searching for vulnerabilities in computer systems to exploit them?
+a) Hacking
+b) Phishing
+c) Spoofing
+d) Brute forcing
+
+Which company developed the Windows operating system?
+a) Microsoft
+b) Apple
+c) IBM
+d) Google
+
+What is the term for a type of attack that floods a network or server with excessive traffic, causing it to become unresponsive?
+a) DDoS (Distributed Denial of Service) attack
+b) SQL injection attack
+c) Phishing attack
+d) Man-in-the-middle attack
+
+Which programming language is known for its use in system administration and scripting?
+a) Bash
+b) Ruby
+c) C++
+d) Swift
+
+What is the term for a small piece of text stored on a user's computer by a website to remember user preferences or login information?
+a) Cookie
+b) Cache
+c) Firewall
+d) Virus
+
+Which company developed the first commercial spreadsheet software?
+a) VisiCorp
+b) Microsoft
+c) IBM
+d) Lotus Development Corporation
+
+What is the term for a set of rules or protocols that govern the exchange of data over a network?
+a) Protocol
+b) Algorithm
+c) API (Application Programming Interface)
+d) Firewall
+
+Which programming language is often used for building web applications and dynamic websites?
+a) PHP
+b) Python
+c) Java
+d) C#
+
+What is the term for the process of making changes to a software program to improve its performance, fix bugs, or add new features?
+a) Software development
+b) Software testing
+c) Software deployment
+d) Software documentation
