@@ -31,6 +31,7 @@
 	"dependencies": {
 		"@fastify/static": "^6.5.0",
 		"@fontsource/montserrat": "^5.0.2",
+		"csv-stringify": "^6.4.0",
 		"dotenv": "^16.0.3",
 		"fastify": "^4.6.0",
 		"fastify-socket.io": "^4.0.0",
