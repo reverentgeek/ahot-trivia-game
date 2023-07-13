@@ -2,6 +2,7 @@
 const fs = require( "fs-extra" );
 const path = require( "node:path" );
 const { stringify } = require( "csv-stringify" );
+const { parse } = require( "csv-parse/sync" );
 
 async function readAndParseTriviaText( fileName ) {
 	const text = await fs.readFile( fileName, { encoding: "utf-8" } );
@@ -25,7 +26,7 @@ async function readAndParseTriviaText( fileName ) {
 	return questions;
 }
 
-async function transfromJsonToCSV( jsonData ) {
+async function transformJsonToCSV( jsonData ) {
 	return new Promise( ( resolve, reject ) => {
 		const flattenedJson = jsonData.map( j => {
 			return {
@@ -54,14 +55,40 @@ async function transfromJsonToCSV( jsonData ) {
 
 }
 
+async function transformCSVtoJson( csvFile ) {
+	const csvData = await fs.readFile( csvFile, { encoding: "utf8" } );
+	const records = parse( csvData, {
+		columns: true,
+		skip_empty_lines: true
+	} );
+	const questions = records.map( r => {
+		return {
+			question: r.Question,
+			choices: [
+				{ choice: r["Correct Choice"] },
+				{ choice: r.Alternate1 },
+				{ choice: r.Alternate2 },
+				{ choice: r.Alternate3 }
+			],
+			correct: 0
+		};
+	} );
+	return questions;
+}
+
 async function main() {
 	const textFile = path.join( __dirname, "trivia.txt" );
 	const jsonFile = path.join( __dirname, "trivia.json" );
+	const updatedJsonFile = path.join( __dirname, "trivia-from-csv.json" );
 	const csvFile = path.join( __dirname, "trivia.csv" );
+	const importCsvFile = path.join( __dirname, "Computer Trivia Questions - Sheet1.csv" );
 	const triviaData = await readAndParseTriviaText( textFile );
 	await fs.writeJSON( jsonFile, triviaData, { spaces: 2 } );
-	const csvData = await transfromJsonToCSV( triviaData );
+	const csvData = await transformJsonToCSV( triviaData );
 	await fs.writeFile( csvFile, csvData );
+	const importedTriviaData = await transformCSVtoJson( importCsvFile );
+	await fs.writeJSON( updatedJsonFile, importedTriviaData, { spaces: 2 } );
+	// console.log( importedTriviaData );
 	// console.log( csvData );
 	// console.log( triviaData );
 }
