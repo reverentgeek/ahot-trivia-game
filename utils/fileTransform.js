@@ -42,9 +42,9 @@ async function transformJsonToCSV( jsonData ) {
 			header: true,
 			columns: [ { key: "question", header: "Question" },
 				{ key: "choice1", header: "Correct Choice" },
-				{ key: "choice2", header: "Alternate" },
-				{ key: "choice3", header: "Alternate" },
-				{ key: "choice4", header: "Alternate" } ]
+				{ key: "choice2", header: "Alternate1" },
+				{ key: "choice3", header: "Alternate2" },
+				{ key: "choice4", header: "Alternate3" } ]
 		}, function( err, data ) {
 			if ( err ) {
 				return reject( err );
