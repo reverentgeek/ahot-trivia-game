@@ -1,3200 +1,902 @@
 [
 	{
-		"question": "Mock trivia question number 1",
+		"question": "Who is considered the father of computer science?",
 		"choices": [
 			{
-				"choice": "True"
+				"choice": "Alan Turing"
 			},
 			{
-				"choice": "False"
-			}
-		],
-		"correct": 1
-	},
-	{
-		"question": "Mock trivia question number 2",
-		"choices": [
-			{
-				"choice": "Choice 1"
-			},
-			{
-				"choice": "Choice 2"
-			},
-			{
-				"choice": "Choice 3"
-			},
-			{
-				"choice": "Choice 4"
-			}
-		],
-		"correct": 2
-	},
-	{
-		"question": "Mock trivia question number 3",
-		"choices": [
-			{
-				"choice": "Choice 1"
-			},
-			{
-				"choice": "Choice 2"
-			},
-			{
-				"choice": "Choice 3"
-			},
-			{
-				"choice": "Choice 4"
-			}
-		],
-		"correct": 3
-	},
-	{
-		"question": "Mock trivia question number 4",
-		"choices": [
-			{
-				"choice": "True"
-			},
-			{
-				"choice": "False"
-			}
-		],
-		"correct": 1
-	},
-	{
-		"question": "Mock trivia question number 5",
-		"choices": [
-			{
-				"choice": "Choice 1"
-			},
-			{
-				"choice": "Choice 2"
-			},
-			{
-				"choice": "Choice 3"
-			},
-			{
-				"choice": "Choice 4"
-			}
-		],
-		"correct": 0
-	},
-	{
-		"question": "Mock trivia question number 6",
-		"choices": [
-			{
-				"choice": "Choice 1"
-			},
-			{
-				"choice": "Choice 2"
-			},
-			{
-				"choice": "Choice 3"
-			},
-			{
-				"choice": "Choice 4"
-			}
-		],
-		"correct": 3
-	},
-	{
-		"question": "Mock trivia question number 7",
-		"choices": [
-			{
-				"choice": "True"
-			},
-			{
-				"choice": "False"
-			}
-		],
-		"correct": 1
-	},
-	{
-		"question": "Mock trivia question number 8",
-		"choices": [
-			{
-				"choice": "Choice 1"
-			},
-			{
-				"choice": "Choice 2"
-			},
-			{
-				"choice": "Choice 3"
-			},
-			{
-				"choice": "Choice 4"
-			}
-		],
-		"correct": 2
-	},
-	{
-		"question": "Mock trivia question number 9",
-		"choices": [
-			{
-				"choice": "Choice 1"
-			},
-			{
-				"choice": "Choice 2"
-			},
-			{
-				"choice": "Choice 3"
-			},
-			{
-				"choice": "Choice 4"
-			}
-		],
-		"correct": 0
-	},
-	{
-		"question": "Mock trivia question number 10",
-		"choices": [
-			{
-				"choice": "True"
-			},
-			{
-				"choice": "False"
-			}
-		],
-		"correct": 0
-	},
-	{
-		"question": "Mock trivia question number 11",
-		"choices": [
-			{
-				"choice": "Choice 1"
-			},
-			{
-				"choice": "Choice 2"
-			},
-			{
-				"choice": "Choice 3"
-			},
-			{
-				"choice": "Choice 4"
-			}
-		],
-		"correct": 3
-	},
-	{
-		"question": "Mock trivia question number 12",
-		"choices": [
-			{
-				"choice": "Choice 1"
-			},
-			{
-				"choice": "Choice 2"
-			},
-			{
-				"choice": "Choice 3"
-			},
-			{
-				"choice": "Choice 4"
-			}
-		],
-		"correct": 1
-	},
-	{
-		"question": "Mock trivia question number 13",
-		"choices": [
-			{
-				"choice": "True"
-			},
-			{
-				"choice": "False"
-			}
-		],
-		"correct": 0
-	},
-	{
-		"question": "Mock trivia question number 14",
-		"choices": [
-			{
-				"choice": "Choice 1"
-			},
-			{
-				"choice": "Choice 2"
-			},
-			{
-				"choice": "Choice 3"
-			},
-			{
-				"choice": "Choice 4"
-			}
-		],
-		"correct": 3
-	},
-	{
-		"question": "Mock trivia question number 15",
-		"choices": [
-			{
-				"choice": "Choice 1"
-			},
-			{
-				"choice": "Choice 2"
-			},
-			{
-				"choice": "Choice 3"
-			},
-			{
-				"choice": "Choice 4"
-			}
-		],
-		"correct": 0
-	},
-	{
-		"question": "Mock trivia question number 16",
-		"choices": [
-			{
-				"choice": "True"
-			},
-			{
-				"choice": "False"
-			}
-		],
-		"correct": 0
-	},
-	{
-		"question": "Mock trivia question number 17",
-		"choices": [
-			{
-				"choice": "Choice 1"
-			},
-			{
-				"choice": "Choice 2"
-			},
-			{
-				"choice": "Choice 3"
-			},
-			{
-				"choice": "Choice 4"
-			}
-		],
-		"correct": 2
-	},
-	{
-		"question": "Mock trivia question number 18",
-		"choices": [
-			{
-				"choice": "Choice 1"
-			},
-			{
-				"choice": "Choice 2"
-			},
-			{
-				"choice": "Choice 3"
-			},
-			{
-				"choice": "Choice 4"
-			}
-		],
-		"correct": 0
-	},
-	{
-		"question": "Mock trivia question number 19",
-		"choices": [
-			{
-				"choice": "True"
-			},
-			{
-				"choice": "False"
-			}
-		],
-		"correct": 1
-	},
-	{
-		"question": "Mock trivia question number 20",
-		"choices": [
-			{
-				"choice": "Choice 1"
-			},
-			{
-				"choice": "Choice 2"
-			},
-			{
-				"choice": "Choice 3"
-			},
-			{
-				"choice": "Choice 4"
-			}
-		],
-		"correct": 2
-	},
-	{
-		"question": "Mock trivia question number 21",
-		"choices": [
-			{
-				"choice": "Choice 1"
-			},
-			{
-				"choice": "Choice 2"
-			},
-			{
-				"choice": "Choice 3"
-			},
-			{
-				"choice": "Choice 4"
-			}
-		],
-		"correct": 2
-	},
-	{
-		"question": "Mock trivia question number 22",
-		"choices": [
-			{
-				"choice": "True"
-			},
-			{
-				"choice": "False"
-			}
-		],
-		"correct": 0
-	},
-	{
-		"question": "Mock trivia question number 23",
-		"choices": [
-			{
-				"choice": "Choice 1"
-			},
-			{
-				"choice": "Choice 2"
-			},
-			{
-				"choice": "Choice 3"
-			},
-			{
-				"choice": "Choice 4"
-			}
-		],
-		"correct": 2
-	},
-	{
-		"question": "Mock trivia question number 24",
-		"choices": [
-			{
-				"choice": "Choice 1"
-			},
-			{
-				"choice": "Choice 2"
-			},
-			{
-				"choice": "Choice 3"
-			},
-			{
-				"choice": "Choice 4"
-			}
-		],
-		"correct": 1
-	},
-	{
-		"question": "Mock trivia question number 25",
-		"choices": [
-			{
-				"choice": "True"
-			},
-			{
-				"choice": "False"
-			}
-		],
-		"correct": 0
-	},
-	{
-		"question": "Mock trivia question number 26",
-		"choices": [
-			{
-				"choice": "Choice 1"
-			},
-			{
-				"choice": "Choice 2"
-			},
-			{
-				"choice": "Choice 3"
-			},
-			{
-				"choice": "Choice 4"
-			}
-		],
-		"correct": 3
-	},
-	{
-		"question": "Mock trivia question number 27",
-		"choices": [
-			{
-				"choice": "Choice 1"
-			},
-			{
-				"choice": "Choice 2"
-			},
-			{
-				"choice": "Choice 3"
-			},
-			{
-				"choice": "Choice 4"
-			}
-		],
-		"correct": 2
-	},
-	{
-		"question": "Mock trivia question number 28",
-		"choices": [
-			{
-				"choice": "True"
-			},
-			{
-				"choice": "False"
-			}
-		],
-		"correct": 1
-	},
-	{
-		"question": "Mock trivia question number 29",
-		"choices": [
-			{
-				"choice": "Choice 1"
-			},
-			{
-				"choice": "Choice 2"
-			},
-			{
-				"choice": "Choice 3"
-			},
-			{
-				"choice": "Choice 4"
-			}
-		],
-		"correct": 1
-	},
-	{
-		"question": "Mock trivia question number 30",
-		"choices": [
-			{
-				"choice": "Choice 1"
-			},
-			{
-				"choice": "Choice 2"
-			},
-			{
-				"choice": "Choice 3"
-			},
-			{
-				"choice": "Choice 4"
-			}
-		],
-		"correct": 1
-	},
-	{
-		"question": "Mock trivia question number 31",
-		"choices": [
-			{
-				"choice": "True"
-			},
-			{
-				"choice": "False"
-			}
-		],
-		"correct": 0
-	},
-	{
-		"question": "Mock trivia question number 32",
-		"choices": [
-			{
-				"choice": "Choice 1"
-			},
-			{
-				"choice": "Choice 2"
-			},
-			{
-				"choice": "Choice 3"
-			},
-			{
-				"choice": "Choice 4"
-			}
-		],
-		"correct": 0
-	},
-	{
-		"question": "Mock trivia question number 33",
-		"choices": [
-			{
-				"choice": "Choice 1"
-			},
-			{
-				"choice": "Choice 2"
-			},
-			{
-				"choice": "Choice 3"
-			},
-			{
-				"choice": "Choice 4"
-			}
-		],
-		"correct": 1
-	},
-	{
-		"question": "Mock trivia question number 34",
-		"choices": [
-			{
-				"choice": "True"
-			},
-			{
-				"choice": "False"
-			}
-		],
-		"correct": 0
-	},
-	{
-		"question": "Mock trivia question number 35",
-		"choices": [
-			{
-				"choice": "Choice 1"
-			},
-			{
-				"choice": "Choice 2"
-			},
-			{
-				"choice": "Choice 3"
-			},
-			{
-				"choice": "Choice 4"
-			}
-		],
-		"correct": 2
-	},
-	{
-		"question": "Mock trivia question number 36",
-		"choices": [
-			{
-				"choice": "Choice 1"
-			},
-			{
-				"choice": "Choice 2"
-			},
-			{
-				"choice": "Choice 3"
-			},
-			{
-				"choice": "Choice 4"
-			}
-		],
-		"correct": 2
-	},
-	{
-		"question": "Mock trivia question number 37",
-		"choices": [
-			{
-				"choice": "True"
-			},
-			{
-				"choice": "False"
-			}
-		],
-		"correct": 1
-	},
-	{
-		"question": "Mock trivia question number 38",
-		"choices": [
-			{
-				"choice": "Choice 1"
-			},
-			{
-				"choice": "Choice 2"
-			},
-			{
-				"choice": "Choice 3"
-			},
-			{
-				"choice": "Choice 4"
-			}
-		],
-		"correct": 2
-	},
-	{
-		"question": "Mock trivia question number 39",
-		"choices": [
-			{
-				"choice": "Choice 1"
-			},
-			{
-				"choice": "Choice 2"
-			},
-			{
-				"choice": "Choice 3"
-			},
-			{
-				"choice": "Choice 4"
-			}
-		],
-		"correct": 3
-	},
-	{
-		"question": "Mock trivia question number 40",
-		"choices": [
-			{
-				"choice": "True"
-			},
-			{
-				"choice": "False"
-			}
-		],
-		"correct": 0
-	},
-	{
-		"question": "Mock trivia question number 41",
-		"choices": [
-			{
-				"choice": "Choice 1"
-			},
-			{
-				"choice": "Choice 2"
-			},
-			{
-				"choice": "Choice 3"
-			},
-			{
-				"choice": "Choice 4"
-			}
-		],
-		"correct": 0
-	},
-	{
-		"question": "Mock trivia question number 42",
-		"choices": [
-			{
-				"choice": "Choice 1"
-			},
-			{
-				"choice": "Choice 2"
-			},
-			{
-				"choice": "Choice 3"
-			},
-			{
-				"choice": "Choice 4"
-			}
-		],
-		"correct": 2
-	},
-	{
-		"question": "Mock trivia question number 43",
-		"choices": [
-			{
-				"choice": "True"
-			},
-			{
-				"choice": "False"
-			}
-		],
-		"correct": 1
-	},
-	{
-		"question": "Mock trivia question number 44",
-		"choices": [
-			{
-				"choice": "Choice 1"
-			},
-			{
-				"choice": "Choice 2"
-			},
-			{
-				"choice": "Choice 3"
-			},
-			{
-				"choice": "Choice 4"
-			}
-		],
-		"correct": 3
-	},
-	{
-		"question": "Mock trivia question number 45",
-		"choices": [
-			{
-				"choice": "Choice 1"
-			},
-			{
-				"choice": "Choice 2"
-			},
-			{
-				"choice": "Choice 3"
-			},
-			{
-				"choice": "Choice 4"
-			}
-		],
-		"correct": 0
-	},
-	{
-		"question": "Mock trivia question number 46",
-		"choices": [
-			{
-				"choice": "True"
-			},
-			{
-				"choice": "False"
-			}
-		],
-		"correct": 0
-	},
-	{
-		"question": "Mock trivia question number 47",
-		"choices": [
-			{
-				"choice": "Choice 1"
-			},
-			{
-				"choice": "Choice 2"
-			},
-			{
-				"choice": "Choice 3"
-			},
-			{
-				"choice": "Choice 4"
-			}
-		],
-		"correct": 1
-	},
-	{
-		"question": "Mock trivia question number 48",
-		"choices": [
-			{
-				"choice": "Choice 1"
-			},
-			{
-				"choice": "Choice 2"
-			},
-			{
-				"choice": "Choice 3"
-			},
-			{
-				"choice": "Choice 4"
-			}
-		],
-		"correct": 1
-	},
-	{
-		"question": "Mock trivia question number 49",
-		"choices": [
-			{
-				"choice": "True"
-			},
-			{
-				"choice": "False"
-			}
-		],
-		"correct": 1
-	},
-	{
-		"question": "Mock trivia question number 50",
-		"choices": [
-			{
-				"choice": "Choice 1"
-			},
-			{
-				"choice": "Choice 2"
-			},
-			{
-				"choice": "Choice 3"
-			},
-			{
-				"choice": "Choice 4"
-			}
-		],
-		"correct": 1
-	},
-	{
-		"question": "Mock trivia question number 51",
-		"choices": [
-			{
-				"choice": "Choice 1"
-			},
-			{
-				"choice": "Choice 2"
-			},
-			{
-				"choice": "Choice 3"
-			},
-			{
-				"choice": "Choice 4"
-			}
-		],
-		"correct": 3
-	},
-	{
-		"question": "Mock trivia question number 52",
-		"choices": [
-			{
-				"choice": "True"
-			},
-			{
-				"choice": "False"
-			}
-		],
-		"correct": 1
-	},
-	{
-		"question": "Mock trivia question number 53",
-		"choices": [
-			{
-				"choice": "Choice 1"
-			},
-			{
-				"choice": "Choice 2"
-			},
-			{
-				"choice": "Choice 3"
-			},
-			{
-				"choice": "Choice 4"
-			}
-		],
-		"correct": 1
-	},
-	{
-		"question": "Mock trivia question number 54",
-		"choices": [
-			{
-				"choice": "Choice 1"
-			},
-			{
-				"choice": "Choice 2"
-			},
-			{
-				"choice": "Choice 3"
-			},
-			{
-				"choice": "Choice 4"
-			}
-		],
-		"correct": 1
-	},
-	{
-		"question": "Mock trivia question number 55",
-		"choices": [
-			{
-				"choice": "True"
-			},
-			{
-				"choice": "False"
-			}
-		],
-		"correct": 0
-	},
-	{
-		"question": "Mock trivia question number 56",
-		"choices": [
-			{
-				"choice": "Choice 1"
-			},
-			{
-				"choice": "Choice 2"
-			},
-			{
-				"choice": "Choice 3"
-			},
-			{
-				"choice": "Choice 4"
-			}
-		],
-		"correct": 1
-	},
-	{
-		"question": "Mock trivia question number 57",
-		"choices": [
-			{
-				"choice": "Choice 1"
-			},
-			{
-				"choice": "Choice 2"
-			},
-			{
-				"choice": "Choice 3"
-			},
-			{
-				"choice": "Choice 4"
-			}
-		],
-		"correct": 2
-	},
-	{
-		"question": "Mock trivia question number 58",
-		"choices": [
-			{
-				"choice": "True"
-			},
-			{
-				"choice": "False"
-			}
-		],
-		"correct": 1
-	},
-	{
-		"question": "Mock trivia question number 59",
-		"choices": [
-			{
-				"choice": "Choice 1"
-			},
-			{
-				"choice": "Choice 2"
-			},
-			{
-				"choice": "Choice 3"
-			},
-			{
-				"choice": "Choice 4"
-			}
-		],
-		"correct": 0
-	},
-	{
-		"question": "Mock trivia question number 60",
-		"choices": [
-			{
-				"choice": "Choice 1"
-			},
-			{
-				"choice": "Choice 2"
-			},
-			{
-				"choice": "Choice 3"
-			},
-			{
-				"choice": "Choice 4"
-			}
-		],
-		"correct": 1
-	},
-	{
-		"question": "Mock trivia question number 61",
-		"choices": [
-			{
-				"choice": "True"
-			},
-			{
-				"choice": "False"
-			}
-		],
-		"correct": 0
-	},
-	{
-		"question": "Mock trivia question number 62",
-		"choices": [
-			{
-				"choice": "Choice 1"
-			},
-			{
-				"choice": "Choice 2"
-			},
-			{
-				"choice": "Choice 3"
-			},
-			{
-				"choice": "Choice 4"
-			}
-		],
-		"correct": 2
-	},
-	{
-		"question": "Mock trivia question number 63",
-		"choices": [
-			{
-				"choice": "Choice 1"
-			},
-			{
-				"choice": "Choice 2"
-			},
-			{
-				"choice": "Choice 3"
-			},
-			{
-				"choice": "Choice 4"
-			}
-		],
-		"correct": 3
-	},
-	{
-		"question": "Mock trivia question number 64",
-		"choices": [
-			{
-				"choice": "True"
-			},
-			{
-				"choice": "False"
-			}
-		],
-		"correct": 1
-	},
-	{
-		"question": "Mock trivia question number 65",
-		"choices": [
-			{
-				"choice": "Choice 1"
-			},
-			{
-				"choice": "Choice 2"
-			},
-			{
-				"choice": "Choice 3"
-			},
-			{
-				"choice": "Choice 4"
-			}
-		],
-		"correct": 0
-	},
-	{
-		"question": "Mock trivia question number 66",
-		"choices": [
-			{
-				"choice": "Choice 1"
-			},
-			{
-				"choice": "Choice 2"
-			},
-			{
-				"choice": "Choice 3"
-			},
-			{
-				"choice": "Choice 4"
-			}
-		],
-		"correct": 1
-	},
-	{
-		"question": "Mock trivia question number 67",
-		"choices": [
-			{
-				"choice": "True"
-			},
-			{
-				"choice": "False"
-			}
-		],
-		"correct": 1
-	},
-	{
-		"question": "Mock trivia question number 68",
-		"choices": [
-			{
-				"choice": "Choice 1"
-			},
-			{
-				"choice": "Choice 2"
-			},
-			{
-				"choice": "Choice 3"
-			},
-			{
-				"choice": "Choice 4"
-			}
-		],
-		"correct": 2
-	},
-	{
-		"question": "Mock trivia question number 69",
-		"choices": [
-			{
-				"choice": "Choice 1"
-			},
-			{
-				"choice": "Choice 2"
-			},
-			{
-				"choice": "Choice 3"
-			},
-			{
-				"choice": "Choice 4"
-			}
-		],
-		"correct": 3
-	},
-	{
-		"question": "Mock trivia question number 70",
-		"choices": [
-			{
-				"choice": "True"
-			},
-			{
-				"choice": "False"
-			}
-		],
-		"correct": 0
-	},
-	{
-		"question": "Mock trivia question number 71",
-		"choices": [
-			{
-				"choice": "Choice 1"
-			},
-			{
-				"choice": "Choice 2"
-			},
-			{
-				"choice": "Choice 3"
-			},
-			{
-				"choice": "Choice 4"
-			}
-		],
-		"correct": 0
-	},
-	{
-		"question": "Mock trivia question number 72",
-		"choices": [
-			{
-				"choice": "Choice 1"
-			},
-			{
-				"choice": "Choice 2"
-			},
-			{
-				"choice": "Choice 3"
-			},
-			{
-				"choice": "Choice 4"
-			}
-		],
-		"correct": 1
-	},
-	{
-		"question": "Mock trivia question number 73",
-		"choices": [
-			{
-				"choice": "True"
-			},
-			{
-				"choice": "False"
-			}
-		],
-		"correct": 1
-	},
-	{
-		"question": "Mock trivia question number 74",
-		"choices": [
-			{
-				"choice": "Choice 1"
-			},
-			{
-				"choice": "Choice 2"
-			},
-			{
-				"choice": "Choice 3"
-			},
-			{
-				"choice": "Choice 4"
-			}
-		],
-		"correct": 3
-	},
-	{
-		"question": "Mock trivia question number 75",
-		"choices": [
-			{
-				"choice": "Choice 1"
-			},
-			{
-				"choice": "Choice 2"
-			},
-			{
-				"choice": "Choice 3"
-			},
-			{
-				"choice": "Choice 4"
-			}
-		],
-		"correct": 2
-	},
-	{
-		"question": "Mock trivia question number 76",
-		"choices": [
-			{
-				"choice": "True"
-			},
-			{
-				"choice": "False"
-			}
-		],
-		"correct": 0
-	},
-	{
-		"question": "Mock trivia question number 77",
-		"choices": [
-			{
-				"choice": "Choice 1"
-			},
-			{
-				"choice": "Choice 2"
-			},
-			{
-				"choice": "Choice 3"
-			},
-			{
-				"choice": "Choice 4"
-			}
-		],
-		"correct": 0
-	},
-	{
-		"question": "Mock trivia question number 78",
-		"choices": [
-			{
-				"choice": "Choice 1"
-			},
-			{
-				"choice": "Choice 2"
-			},
-			{
-				"choice": "Choice 3"
-			},
-			{
-				"choice": "Choice 4"
-			}
-		],
-		"correct": 0
-	},
-	{
-		"question": "Mock trivia question number 79",
-		"choices": [
-			{
-				"choice": "True"
-			},
-			{
-				"choice": "False"
-			}
-		],
-		"correct": 1
-	},
-	{
-		"question": "Mock trivia question number 80",
-		"choices": [
-			{
-				"choice": "Choice 1"
-			},
-			{
-				"choice": "Choice 2"
-			},
-			{
-				"choice": "Choice 3"
-			},
-			{
-				"choice": "Choice 4"
-			}
-		],
-		"correct": 3
-	},
-	{
-		"question": "Mock trivia question number 81",
-		"choices": [
-			{
-				"choice": "Choice 1"
-			},
-			{
-				"choice": "Choice 2"
-			},
-			{
-				"choice": "Choice 3"
-			},
-			{
-				"choice": "Choice 4"
-			}
-		],
-		"correct": 0
-	},
-	{
-		"question": "Mock trivia question number 82",
-		"choices": [
-			{
-				"choice": "True"
-			},
-			{
-				"choice": "False"
-			}
-		],
-		"correct": 0
-	},
-	{
-		"question": "Mock trivia question number 83",
-		"choices": [
-			{
-				"choice": "Choice 1"
-			},
-			{
-				"choice": "Choice 2"
-			},
-			{
-				"choice": "Choice 3"
-			},
-			{
-				"choice": "Choice 4"
-			}
-		],
-		"correct": 3
-	},
-	{
-		"question": "Mock trivia question number 84",
-		"choices": [
-			{
-				"choice": "Choice 1"
-			},
-			{
-				"choice": "Choice 2"
-			},
-			{
-				"choice": "Choice 3"
-			},
-			{
-				"choice": "Choice 4"
-			}
-		],
-		"correct": 1
-	},
-	{
-		"question": "Mock trivia question number 85",
-		"choices": [
-			{
-				"choice": "True"
-			},
-			{
-				"choice": "False"
-			}
-		],
-		"correct": 1
-	},
-	{
-		"question": "Mock trivia question number 86",
-		"choices": [
-			{
-				"choice": "Choice 1"
-			},
-			{
-				"choice": "Choice 2"
-			},
-			{
-				"choice": "Choice 3"
-			},
-			{
-				"choice": "Choice 4"
-			}
-		],
-		"correct": 0
-	},
-	{
-		"question": "Mock trivia question number 87",
-		"choices": [
-			{
-				"choice": "Choice 1"
-			},
-			{
-				"choice": "Choice 2"
-			},
-			{
-				"choice": "Choice 3"
-			},
-			{
-				"choice": "Choice 4"
-			}
-		],
-		"correct": 3
-	},
-	{
-		"question": "Mock trivia question number 88",
-		"choices": [
-			{
-				"choice": "True"
-			},
-			{
-				"choice": "False"
-			}
-		],
-		"correct": 0
-	},
-	{
-		"question": "Mock trivia question number 89",
-		"choices": [
-			{
-				"choice": "Choice 1"
-			},
-			{
-				"choice": "Choice 2"
-			},
-			{
-				"choice": "Choice 3"
-			},
-			{
-				"choice": "Choice 4"
-			}
-		],
-		"correct": 0
-	},
-	{
-		"question": "Mock trivia question number 90",
-		"choices": [
-			{
-				"choice": "Choice 1"
-			},
-			{
-				"choice": "Choice 2"
-			},
-			{
-				"choice": "Choice 3"
-			},
-			{
-				"choice": "Choice 4"
-			}
-		],
-		"correct": 0
-	},
-	{
-		"question": "Mock trivia question number 91",
-		"choices": [
-			{
-				"choice": "True"
-			},
-			{
-				"choice": "False"
-			}
-		],
-		"correct": 0
-	},
-	{
-		"question": "Mock trivia question number 92",
-		"choices": [
-			{
-				"choice": "Choice 1"
-			},
-			{
-				"choice": "Choice 2"
-			},
-			{
-				"choice": "Choice 3"
-			},
-			{
-				"choice": "Choice 4"
-			}
-		],
-		"correct": 1
-	},
-	{
-		"question": "Mock trivia question number 93",
-		"choices": [
-			{
-				"choice": "Choice 1"
-			},
-			{
-				"choice": "Choice 2"
-			},
-			{
-				"choice": "Choice 3"
-			},
-			{
-				"choice": "Choice 4"
-			}
-		],
-		"correct": 2
-	},
-	{
-		"question": "Mock trivia question number 94",
-		"choices": [
-			{
-				"choice": "True"
-			},
-			{
-				"choice": "False"
-			}
-		],
-		"correct": 1
-	},
-	{
-		"question": "Mock trivia question number 95",
-		"choices": [
-			{
-				"choice": "Choice 1"
-			},
-			{
-				"choice": "Choice 2"
-			},
-			{
-				"choice": "Choice 3"
-			},
-			{
-				"choice": "Choice 4"
-			}
-		],
-		"correct": 2
-	},
-	{
-		"question": "Mock trivia question number 96",
-		"choices": [
-			{
-				"choice": "Choice 1"
-			},
-			{
-				"choice": "Choice 2"
-			},
-			{
-				"choice": "Choice 3"
-			},
-			{
-				"choice": "Choice 4"
-			}
-		],
-		"correct": 0
-	},
-	{
-		"question": "Mock trivia question number 97",
-		"choices": [
-			{
-				"choice": "True"
-			},
-			{
-				"choice": "False"
-			}
-		],
-		"correct": 1
-	},
-	{
-		"question": "Mock trivia question number 98",
-		"choices": [
-			{
-				"choice": "Choice 1"
-			},
-			{
-				"choice": "Choice 2"
-			},
-			{
-				"choice": "Choice 3"
-			},
-			{
-				"choice": "Choice 4"
-			}
-		],
-		"correct": 3
-	},
-	{
-		"question": "Mock trivia question number 99",
-		"choices": [
-			{
-				"choice": "Choice 1"
-			},
-			{
-				"choice": "Choice 2"
-			},
-			{
-				"choice": "Choice 3"
-			},
-			{
-				"choice": "Choice 4"
-			}
-		],
-		"correct": 1
-	},
-	{
-		"question": "Mock trivia question number 100",
-		"choices": [
-			{
-				"choice": "True"
-			},
-			{
-				"choice": "False"
-			}
-		],
-		"correct": 1
-	},
-	{
-		"question": "Mock trivia question number 101",
-		"choices": [
-			{
-				"choice": "Choice 1"
-			},
-			{
-				"choice": "Choice 2"
-			},
-			{
-				"choice": "Choice 3"
-			},
-			{
-				"choice": "Choice 4"
-			}
-		],
-		"correct": 2
-	},
-	{
-		"question": "Mock trivia question number 102",
-		"choices": [
-			{
-				"choice": "Choice 1"
-			},
-			{
-				"choice": "Choice 2"
-			},
-			{
-				"choice": "Choice 3"
-			},
-			{
-				"choice": "Choice 4"
-			}
-		],
-		"correct": 2
-	},
-	{
-		"question": "Mock trivia question number 103",
-		"choices": [
-			{
-				"choice": "True"
-			},
-			{
-				"choice": "False"
-			}
-		],
-		"correct": 0
-	},
-	{
-		"question": "Mock trivia question number 104",
-		"choices": [
-			{
-				"choice": "Choice 1"
-			},
-			{
-				"choice": "Choice 2"
-			},
-			{
-				"choice": "Choice 3"
-			},
-			{
-				"choice": "Choice 4"
-			}
-		],
-		"correct": 3
-	},
-	{
-		"question": "Mock trivia question number 105",
-		"choices": [
-			{
-				"choice": "Choice 1"
-			},
-			{
-				"choice": "Choice 2"
-			},
-			{
-				"choice": "Choice 3"
-			},
-			{
-				"choice": "Choice 4"
-			}
-		],
-		"correct": 2
-	},
-	{
-		"question": "Mock trivia question number 106",
-		"choices": [
-			{
-				"choice": "True"
-			},
-			{
-				"choice": "False"
-			}
-		],
-		"correct": 0
-	},
-	{
-		"question": "Mock trivia question number 107",
-		"choices": [
-			{
-				"choice": "Choice 1"
-			},
-			{
-				"choice": "Choice 2"
-			},
-			{
-				"choice": "Choice 3"
-			},
-			{
-				"choice": "Choice 4"
-			}
-		],
-		"correct": 3
-	},
-	{
-		"question": "Mock trivia question number 108",
-		"choices": [
-			{
-				"choice": "Choice 1"
-			},
-			{
-				"choice": "Choice 2"
-			},
-			{
-				"choice": "Choice 3"
-			},
-			{
-				"choice": "Choice 4"
-			}
-		],
-		"correct": 0
-	},
-	{
-		"question": "Mock trivia question number 109",
-		"choices": [
-			{
-				"choice": "True"
-			},
-			{
-				"choice": "False"
-			}
-		],
-		"correct": 0
-	},
-	{
-		"question": "Mock trivia question number 110",
-		"choices": [
-			{
-				"choice": "Choice 1"
-			},
-			{
-				"choice": "Choice 2"
-			},
-			{
-				"choice": "Choice 3"
-			},
-			{
-				"choice": "Choice 4"
-			}
-		],
-		"correct": 3
-	},
-	{
-		"question": "Mock trivia question number 111",
-		"choices": [
-			{
-				"choice": "Choice 1"
-			},
-			{
-				"choice": "Choice 2"
-			},
-			{
-				"choice": "Choice 3"
-			},
-			{
-				"choice": "Choice 4"
-			}
-		],
-		"correct": 0
-	},
-	{
-		"question": "Mock trivia question number 112",
-		"choices": [
-			{
-				"choice": "True"
-			},
-			{
-				"choice": "False"
-			}
-		],
-		"correct": 0
-	},
-	{
-		"question": "Mock trivia question number 113",
-		"choices": [
-			{
-				"choice": "Choice 1"
-			},
-			{
-				"choice": "Choice 2"
-			},
-			{
-				"choice": "Choice 3"
-			},
-			{
-				"choice": "Choice 4"
-			}
-		],
-		"correct": 0
-	},
-	{
-		"question": "Mock trivia question number 114",
-		"choices": [
-			{
-				"choice": "Choice 1"
-			},
-			{
-				"choice": "Choice 2"
-			},
-			{
-				"choice": "Choice 3"
-			},
-			{
-				"choice": "Choice 4"
-			}
-		],
-		"correct": 2
-	},
-	{
-		"question": "Mock trivia question number 115",
-		"choices": [
-			{
-				"choice": "True"
-			},
-			{
-				"choice": "False"
-			}
-		],
-		"correct": 0
-	},
-	{
-		"question": "Mock trivia question number 116",
-		"choices": [
-			{
-				"choice": "Choice 1"
-			},
-			{
-				"choice": "Choice 2"
-			},
-			{
-				"choice": "Choice 3"
-			},
-			{
-				"choice": "Choice 4"
-			}
-		],
-		"correct": 1
-	},
-	{
-		"question": "Mock trivia question number 117",
-		"choices": [
-			{
-				"choice": "Choice 1"
-			},
-			{
-				"choice": "Choice 2"
-			},
-			{
-				"choice": "Choice 3"
-			},
-			{
-				"choice": "Choice 4"
-			}
-		],
-		"correct": 2
-	},
-	{
-		"question": "Mock trivia question number 118",
-		"choices": [
-			{
-				"choice": "True"
-			},
-			{
-				"choice": "False"
-			}
-		],
-		"correct": 1
-	},
-	{
-		"question": "Mock trivia question number 119",
-		"choices": [
-			{
-				"choice": "Choice 1"
-			},
-			{
-				"choice": "Choice 2"
-			},
-			{
-				"choice": "Choice 3"
-			},
-			{
-				"choice": "Choice 4"
-			}
-		],
-		"correct": 1
-	},
-	{
-		"question": "Mock trivia question number 120",
-		"choices": [
-			{
-				"choice": "Choice 1"
-			},
-			{
-				"choice": "Choice 2"
-			},
-			{
-				"choice": "Choice 3"
-			},
-			{
-				"choice": "Choice 4"
-			}
-		],
-		"correct": 1
-	},
-	{
-		"question": "Mock trivia question number 121",
-		"choices": [
-			{
-				"choice": "True"
-			},
-			{
-				"choice": "False"
-			}
-		],
-		"correct": 0
-	},
-	{
-		"question": "Mock trivia question number 122",
-		"choices": [
-			{
-				"choice": "Choice 1"
-			},
-			{
-				"choice": "Choice 2"
-			},
-			{
-				"choice": "Choice 3"
-			},
-			{
-				"choice": "Choice 4"
-			}
-		],
-		"correct": 0
-	},
-	{
-		"question": "Mock trivia question number 123",
-		"choices": [
-			{
-				"choice": "Choice 1"
-			},
-			{
-				"choice": "Choice 2"
-			},
-			{
-				"choice": "Choice 3"
-			},
-			{
-				"choice": "Choice 4"
-			}
-		],
-		"correct": 2
-	},
-	{
-		"question": "Mock trivia question number 124",
-		"choices": [
-			{
-				"choice": "True"
-			},
-			{
-				"choice": "False"
-			}
-		],
-		"correct": 1
-	},
-	{
-		"question": "Mock trivia question number 125",
-		"choices": [
-			{
-				"choice": "Choice 1"
-			},
-			{
-				"choice": "Choice 2"
-			},
-			{
-				"choice": "Choice 3"
-			},
-			{
-				"choice": "Choice 4"
-			}
-		],
-		"correct": 1
-	},
-	{
-		"question": "Mock trivia question number 126",
-		"choices": [
-			{
-				"choice": "Choice 1"
-			},
-			{
-				"choice": "Choice 2"
-			},
-			{
-				"choice": "Choice 3"
+				"choice": "Bill Gates"
 			},
-			{
-				"choice": "Choice 4"
-			}
-		],
-		"correct": 1
-	},
-	{
-		"question": "Mock trivia question number 127",
-		"choices": [
 			{
-				"choice": "True"
+				"choice": "Steve Jobs"
 			},
 			{
-				"choice": "False"
+				"choice": "Mark Zuckerberg"
 			}
 		],
 		"correct": 0
 	},
 	{
-		"question": "Mock trivia question number 128",
+		"question": "What does the abbreviation \"CPU\" stand for?",
 		"choices": [
 			{
-				"choice": "Choice 1"
+				"choice": "Central Processing Unit"
 			},
 			{
-				"choice": "Choice 2"
+				"choice": "Computer Processing Unit"
 			},
 			{
-				"choice": "Choice 3"
+				"choice": "Core Processing Unit"
 			},
 			{
-				"choice": "Choice 4"
+				"choice": "Control Processing Unit"
 			}
 		],
-		"correct": 2
+		"correct": 0
 	},
 	{
-		"question": "Mock trivia question number 129",
+		"question": "Which company developed the first commercially successful personal computer?",
 		"choices": [
-			{
-				"choice": "Choice 1"
-			},
 			{
-				"choice": "Choice 2"
+				"choice": "IBM"
 			},
 			{
-				"choice": "Choice 3"
+				"choice": "Apple"
 			},
 			{
-				"choice": "Choice 4"
-			}
-		],
-		"correct": 2
-	},
-	{
-		"question": "Mock trivia question number 130",
-		"choices": [
-			{
-				"choice": "True"
+				"choice": "Microsoft"
 			},
 			{
-				"choice": "False"
+				"choice": "Dell"
 			}
 		],
 		"correct": 0
 	},
 	{
-		"question": "Mock trivia question number 131",
+		"question": "What year was the first iPhone released?",
 		"choices": [
 			{
-				"choice": "Choice 1"
+				"choice": "2007"
 			},
 			{
-				"choice": "Choice 2"
+				"choice": "2005"
 			},
 			{
-				"choice": "Choice 3"
+				"choice": "2010"
 			},
 			{
-				"choice": "Choice 4"
+				"choice": "2012"
 			}
 		],
-		"correct": 1
+		"correct": 0
 	},
 	{
-		"question": "Mock trivia question number 132",
+		"question": "What does the term \"URL\" stand for?",
 		"choices": [
-			{
-				"choice": "Choice 1"
-			},
 			{
-				"choice": "Choice 2"
+				"choice": "Uniform Resource Locator"
 			},
 			{
-				"choice": "Choice 3"
+				"choice": "Universal Routing Language"
 			},
-			{
-				"choice": "Choice 4"
-			}
-		],
-		"correct": 1
-	},
-	{
-		"question": "Mock trivia question number 133",
-		"choices": [
 			{
-				"choice": "True"
+				"choice": "Unique Resource Link"
 			},
 			{
-				"choice": "False"
+				"choice": "User Referral Link"
 			}
 		],
 		"correct": 0
 	},
 	{
-		"question": "Mock trivia question number 134",
+		"question": "Which programming language was developed by Guido van Rossum?",
 		"choices": [
 			{
-				"choice": "Choice 1"
+				"choice": "Python"
 			},
 			{
-				"choice": "Choice 2"
+				"choice": "Java"
 			},
 			{
-				"choice": "Choice 3"
+				"choice": "C++"
 			},
 			{
-				"choice": "Choice 4"
+				"choice": "Ruby"
 			}
 		],
-		"correct": 2
+		"correct": 0
 	},
 	{
-		"question": "Mock trivia question number 135",
+		"question": "What is the smallest unit of digital information?",
 		"choices": [
 			{
-				"choice": "Choice 1"
+				"choice": "Bit"
 			},
 			{
-				"choice": "Choice 2"
+				"choice": "Byte"
 			},
-			{
-				"choice": "Choice 3"
-			},
-			{
-				"choice": "Choice 4"
-			}
-		],
-		"correct": 0
-	},
-	{
-		"question": "Mock trivia question number 136",
-		"choices": [
 			{
-				"choice": "True"
+				"choice": "Megabyte"
 			},
 			{
-				"choice": "False"
+				"choice": "Gigabyte"
 			}
 		],
 		"correct": 0
 	},
 	{
-		"question": "Mock trivia question number 137",
+		"question": "Which company developed the first graphical web browser?",
 		"choices": [
 			{
-				"choice": "Choice 1"
+				"choice": "Netscape"
 			},
 			{
-				"choice": "Choice 2"
+				"choice": "Microsoft"
 			},
 			{
-				"choice": "Choice 3"
+				"choice": "Google"
 			},
 			{
-				"choice": "Choice 4"
+				"choice": "Apple"
 			}
 		],
 		"correct": 0
 	},
 	{
-		"question": "Mock trivia question number 138",
+		"question": "Who is the co-founder of Apple Inc. alongside Steve Jobs?",
 		"choices": [
-			{
-				"choice": "Choice 1"
-			},
 			{
-				"choice": "Choice 2"
+				"choice": "Steve Wozniak"
 			},
 			{
-				"choice": "Choice 3"
+				"choice": "Bill Gates"
 			},
-			{
-				"choice": "Choice 4"
-			}
-		],
-		"correct": 3
-	},
-	{
-		"question": "Mock trivia question number 139",
-		"choices": [
 			{
-				"choice": "True"
+				"choice": "Larry Page"
 			},
 			{
-				"choice": "False"
+				"choice": "Elon Musk"
 			}
 		],
 		"correct": 0
 	},
 	{
-		"question": "Mock trivia question number 140",
+		"question": "What does the acronym \"HTML\" stand for?",
 		"choices": [
 			{
-				"choice": "Choice 1"
+				"choice": "HyperText Markup Language"
 			},
 			{
-				"choice": "Choice 2"
+				"choice": "High-Tech Machine Language"
 			},
 			{
-				"choice": "Choice 3"
+				"choice": "Hyperlink and Text Markup Language"
 			},
 			{
-				"choice": "Choice 4"
+				"choice": "Hypertext Modeling Language"
 			}
 		],
-		"correct": 1
+		"correct": 0
 	},
 	{
-		"question": "Mock trivia question number 141",
+		"question": "Which programming language is commonly used for developing Android apps?",
 		"choices": [
-			{
-				"choice": "Choice 1"
-			},
 			{
-				"choice": "Choice 2"
+				"choice": "Java"
 			},
 			{
-				"choice": "Choice 3"
+				"choice": "Python"
 			},
-			{
-				"choice": "Choice 4"
-			}
-		],
-		"correct": 1
-	},
-	{
-		"question": "Mock trivia question number 142",
-		"choices": [
 			{
-				"choice": "True"
+				"choice": "C#"
 			},
 			{
-				"choice": "False"
+				"choice": "Swift"
 			}
 		],
 		"correct": 0
 	},
 	{
-		"question": "Mock trivia question number 143",
+		"question": "What is the most widely used programming language in the world?",
 		"choices": [
 			{
-				"choice": "Choice 1"
+				"choice": "JavaScript"
 			},
 			{
-				"choice": "Choice 2"
+				"choice": "C++"
 			},
 			{
-				"choice": "Choice 3"
+				"choice": "Ruby"
 			},
 			{
-				"choice": "Choice 4"
+				"choice": "PHP"
 			}
 		],
 		"correct": 0
 	},
 	{
-		"question": "Mock trivia question number 144",
+		"question": "Which company is known for its gaming console called PlayStation?",
 		"choices": [
-			{
-				"choice": "Choice 1"
-			},
 			{
-				"choice": "Choice 2"
+				"choice": "Sony"
 			},
 			{
-				"choice": "Choice 3"
+				"choice": "Microsoft"
 			},
-			{
-				"choice": "Choice 4"
-			}
-		],
-		"correct": 3
-	},
-	{
-		"question": "Mock trivia question number 145",
-		"choices": [
 			{
-				"choice": "True"
+				"choice": "Nintendo"
 			},
 			{
-				"choice": "False"
+				"choice": "Sega"
 			}
 		],
 		"correct": 0
 	},
 	{
-		"question": "Mock trivia question number 146",
+		"question": "What is the primary function of an operating system?",
 		"choices": [
 			{
-				"choice": "Choice 1"
+				"choice": "Manage computer hardware and software resources"
 			},
 			{
-				"choice": "Choice 2"
+				"choice": "Run applications"
 			},
 			{
-				"choice": "Choice 3"
+				"choice": "Connect to the internet"
 			},
 			{
-				"choice": "Choice 4"
+				"choice": "Store files and folders"
 			}
 		],
-		"correct": 2
+		"correct": 0
 	},
 	{
-		"question": "Mock trivia question number 147",
+		"question": "Who is often credited with inventing the computer mouse?",
 		"choices": [
-			{
-				"choice": "Choice 1"
-			},
 			{
-				"choice": "Choice 2"
+				"choice": "Douglas Engelbart"
 			},
 			{
-				"choice": "Choice 3"
+				"choice": "Bill Gates"
 			},
-			{
-				"choice": "Choice 4"
-			}
-		],
-		"correct": 3
-	},
-	{
-		"question": "Mock trivia question number 148",
-		"choices": [
 			{
-				"choice": "True"
+				"choice": "Steve Jobs"
 			},
 			{
-				"choice": "False"
+				"choice": "Tim Berners-Lee"
 			}
 		],
 		"correct": 0
 	},
 	{
-		"question": "Mock trivia question number 149",
+		"question": "What is the name of Google's mobile operating system?",
 		"choices": [
 			{
-				"choice": "Choice 1"
+				"choice": "Android"
 			},
 			{
-				"choice": "Choice 2"
+				"choice": "iOS"
 			},
 			{
-				"choice": "Choice 3"
+				"choice": "Windows Mobile"
 			},
 			{
-				"choice": "Choice 4"
+				"choice": "Blackberry OS"
 			}
 		],
-		"correct": 2
+		"correct": 0
 	},
 	{
-		"question": "Mock trivia question number 150",
+		"question": "Which programming language is often used for artificial intelligence and machine learning?",
 		"choices": [
 			{
-				"choice": "Choice 1"
+				"choice": "Python"
 			},
 			{
-				"choice": "Choice 2"
+				"choice": "Java"
 			},
 			{
-				"choice": "Choice 3"
+				"choice": "C#"
 			},
 			{
-				"choice": "Choice 4"
+				"choice": "Ruby"
 			}
 		],
 		"correct": 0
-	},
-	{
-		"question": "Mock trivia question number 151",
-		"choices": [
-			{
-				"choice": "True"
-			},
-			{
-				"choice": "False"
-			}
-		],
-		"correct": 1
 	},
 	{
-		"question": "Mock trivia question number 152",
+		"question": "Who developed the first programming language called Fortran?",
 		"choices": [
 			{
-				"choice": "Choice 1"
+				"choice": "John Backus and a team of IBM researchers"
 			},
 			{
-				"choice": "Choice 2"
+				"choice": "Bill Gates and Paul Allen"
 			},
 			{
-				"choice": "Choice 3"
+				"choice": "Dennis Ritchie and Ken Thompson"
 			},
 			{
-				"choice": "Choice 4"
+				"choice": "Guido van Rossum"
 			}
 		],
-		"correct": 3
+		"correct": 0
 	},
 	{
-		"question": "Mock trivia question number 153",
+		"question": "Which programming language is used to create websites?",
 		"choices": [
-			{
-				"choice": "Choice 1"
-			},
 			{
-				"choice": "Choice 2"
+				"choice": "HTML"
 			},
 			{
-				"choice": "Choice 3"
+				"choice": "CSS"
 			},
-			{
-				"choice": "Choice 4"
-			}
-		],
-		"correct": 3
-	},
-	{
-		"question": "Mock trivia question number 154",
-		"choices": [
 			{
-				"choice": "True"
+				"choice": "JavaScript"
 			},
 			{
-				"choice": "False"
+				"choice": "PHP"
 			}
 		],
-		"correct": 1
+		"correct": 0
 	},
 	{
-		"question": "Mock trivia question number 155",
+		"question": "What does the acronym \"LAN\" stand for?",
 		"choices": [
 			{
-				"choice": "Choice 1"
+				"choice": "Local Area Network"
 			},
 			{
-				"choice": "Choice 2"
+				"choice": "Long Area Network"
 			},
 			{
-				"choice": "Choice 3"
+				"choice": "LocalArea Node"
 			},
 			{
-				"choice": "Choice 4"
+				"choice": "Local Access Network"
 			}
 		],
-		"correct": 1
+		"correct": 0
 	},
 	{
-		"question": "Mock trivia question number 156",
+		"question": "What was the first widely-used web browser?",
 		"choices": [
-			{
-				"choice": "Choice 1"
-			},
 			{
-				"choice": "Choice 2"
+				"choice": "Mosaic"
 			},
 			{
-				"choice": "Choice 3"
+				"choice": "Internet Explorer"
 			},
-			{
-				"choice": "Choice 4"
-			}
-		],
-		"correct": 0
-	},
-	{
-		"question": "Mock trivia question number 157",
-		"choices": [
 			{
-				"choice": "True"
+				"choice": "Netscape Navigator"
 			},
 			{
-				"choice": "False"
+				"choice": "Safari"
 			}
 		],
 		"correct": 0
 	},
 	{
-		"question": "Mock trivia question number 158",
+		"question": "Which company developed the Java programming language?",
 		"choices": [
 			{
-				"choice": "Choice 1"
+				"choice": "Sun Microsystems"
 			},
 			{
-				"choice": "Choice 2"
+				"choice": "Apple"
 			},
 			{
-				"choice": "Choice 3"
+				"choice": "Microsoft"
 			},
 			{
-				"choice": "Choice 4"
+				"choice": "IBM"
 			}
 		],
 		"correct": 0
 	},
 	{
-		"question": "Mock trivia question number 159",
+		"question": "What is the process of converting source code into machine code called?",
 		"choices": [
 			{
-				"choice": "Choice 1"
+				"choice": "Compilation"
 			},
 			{
-				"choice": "Choice 2"
+				"choice": "Interpretation"
 			},
 			{
-				"choice": "Choice 3"
+				"choice": "Debugging"
 			},
 			{
-				"choice": "Choice 4"
+				"choice": "Documentation"
 			}
 		],
 		"correct": 0
 	},
 	{
-		"question": "Mock trivia question number 160",
+		"question": "Which social media platform was founded by Mark Zuckerberg?",
 		"choices": [
 			{
-				"choice": "True"
+				"choice": "Facebook"
 			},
 			{
-				"choice": "False"
-			}
-		],
-		"correct": 1
-	},
-	{
-		"question": "Mock trivia question number 161",
-		"choices": [
-			{
-				"choice": "Choice 1"
-			},
-			{
-				"choice": "Choice 2"
+				"choice": "Twitter"
 			},
 			{
-				"choice": "Choice 3"
+				"choice": "Instagram"
 			},
 			{
-				"choice": "Choice 4"
+				"choice": "LinkedIn"
 			}
 		],
-		"correct": 1
+		"correct": 0
 	},
 	{
-		"question": "Mock trivia question number 162",
+		"question": "What does the acronym \"VPN\" stand for?",
 		"choices": [
-			{
-				"choice": "Choice 1"
-			},
 			{
-				"choice": "Choice 2"
+				"choice": "Virtual Private Network"
 			},
 			{
-				"choice": "Choice 3"
+				"choice": "Virtual Personal Network"
 			},
-			{
-				"choice": "Choice 4"
-			}
-		],
-		"correct": 3
-	},
-	{
-		"question": "Mock trivia question number 163",
-		"choices": [
 			{
-				"choice": "True"
+				"choice": "Very Powerful Network"
 			},
 			{
-				"choice": "False"
+				"choice": "Virtual Public Network"
 			}
 		],
 		"correct": 0
 	},
 	{
-		"question": "Mock trivia question number 164",
+		"question": "Which programming language is known for its use in statistical analysis and data science?",
 		"choices": [
 			{
-				"choice": "Choice 1"
+				"choice": "R"
 			},
 			{
-				"choice": "Choice 2"
+				"choice": "Python"
 			},
 			{
-				"choice": "Choice 3"
+				"choice": "Java"
 			},
 			{
-				"choice": "Choice 4"
+				"choice": "C++"
 			}
 		],
 		"correct": 0
 	},
 	{
-		"question": "Mock trivia question number 165",
+		"question": "What does the acronym \"PDF\" stand for?",
 		"choices": [
 			{
-				"choice": "Choice 1"
+				"choice": "Portable Document Format"
 			},
 			{
-				"choice": "Choice 2"
+				"choice": "Personal Data File"
 			},
 			{
-				"choice": "Choice 3"
+				"choice": "Program Development File"
 			},
 			{
-				"choice": "Choice 4"
+				"choice": "Print Document File"
 			}
 		],
 		"correct": 0
-	},
-	{
-		"question": "Mock trivia question number 166",
-		"choices": [
-			{
-				"choice": "True"
-			},
-			{
-				"choice": "False"
-			}
-		],
-		"correct": 1
 	},
 	{
-		"question": "Mock trivia question number 167",
+		"question": "What is the term used to describe a malicious software that encrypts files and demands a ransom?",
 		"choices": [
 			{
-				"choice": "Choice 1"
+				"choice": "Ransomware"
 			},
 			{
-				"choice": "Choice 2"
+				"choice": "Spyware"
 			},
 			{
-				"choice": "Choice 3"
+				"choice": "Malware"
 			},
 			{
-				"choice": "Choice 4"
+				"choice": "Adware"
 			}
 		],
-		"correct": 1
+		"correct": 0
 	},
 	{
-		"question": "Mock trivia question number 168",
+		"question": "Which company developed the first commercial microprocessor?",
 		"choices": [
-			{
-				"choice": "Choice 1"
-			},
 			{
-				"choice": "Choice 2"
+				"choice": "Intel"
 			},
 			{
-				"choice": "Choice 3"
+				"choice": "AMD"
 			},
-			{
-				"choice": "Choice 4"
-			}
-		],
-		"correct": 0
-	},
-	{
-		"question": "Mock trivia question number 169",
-		"choices": [
 			{
-				"choice": "True"
+				"choice": "IBM"
 			},
 			{
-				"choice": "False"
+				"choice": "Apple"
 			}
 		],
 		"correct": 0
 	},
 	{
-		"question": "Mock trivia question number 170",
+		"question": "What is the term for a small piece of code that performs a specific task and can be reused in multiple programs?",
 		"choices": [
 			{
-				"choice": "Choice 1"
+				"choice": "Function"
 			},
 			{
-				"choice": "Choice 2"
+				"choice": "Module"
 			},
 			{
-				"choice": "Choice 3"
+				"choice": "Class"
 			},
 			{
-				"choice": "Choice 4"
+				"choice": "Method"
 			}
 		],
-		"correct": 1
+		"correct": 0
 	},
 	{
-		"question": "Mock trivia question number 171",
+		"question": "What is the term for the practice of copying someone else's work and presenting it as your own?",
 		"choices": [
 			{
-				"choice": "Choice 1"
+				"choice": "Plagiarism"
 			},
 			{
-				"choice": "Choice 2"
+				"choice": "Hacking"
 			},
-			{
-				"choice": "Choice 3"
-			},
-			{
-				"choice": "Choice 4"
-			}
-		],
-		"correct": 1
-	},
-	{
-		"question": "Mock trivia question number 172",
-		"choices": [
 			{
-				"choice": "True"
+				"choice": "Phishing"
 			},
 			{
-				"choice": "False"
+				"choice": "Piracy"
 			}
 		],
-		"correct": 1
+		"correct": 0
 	},
 	{
-		"question": "Mock trivia question number 173",
+		"question": "What does the term \"WYSIWYG\" stand for?",
 		"choices": [
 			{
-				"choice": "Choice 1"
+				"choice": "What You See Is What You Get"
 			},
 			{
-				"choice": "Choice 2"
+				"choice": "Where You Search Is Where You Go"
 			},
 			{
-				"choice": "Choice 3"
+				"choice": "Who You Serve Is What You Gain"
 			},
 			{
-				"choice": "Choice 4"
+				"choice": "Why You Study Is What You Get"
 			}
 		],
-		"correct": 3
+		"correct": 0
 	},
 	{
-		"question": "Mock trivia question number 174",
+		"question": "Which programming language is often used for game development?",
 		"choices": [
-			{
-				"choice": "Choice 1"
-			},
 			{
-				"choice": "Choice 2"
+				"choice": "C++"
 			},
 			{
-				"choice": "Choice 3"
+				"choice": "Python"
 			},
 			{
-				"choice": "Choice 4"
-			}
-		],
-		"correct": 3
-	},
-	{
-		"question": "Mock trivia question number 175",
-		"choices": [
-			{
-				"choice": "True"
+				"choice": "JavaScript"
 			},
 			{
-				"choice": "False"
+				"choice": "Ruby"
 			}
 		],
 		"correct": 0
 	},
 	{
-		"question": "Mock trivia question number 176",
+		"question": "What is the term for a network of interconnected devices that can communicate and share resources without a centralized server?",
 		"choices": [
 			{
-				"choice": "Choice 1"
+				"choice": "Peer-to-peer network"
 			},
 			{
-				"choice": "Choice 2"
+				"choice": "Client-server network"
 			},
 			{
-				"choice": "Choice 3"
+				"choice": "Local network"
 			},
 			{
-				"choice": "Choice 4"
+				"choice": "Wide area network"
 			}
 		],
-		"correct": 3
+		"correct": 0
 	},
 	{
-		"question": "Mock trivia question number 177",
+		"question": "Which company developed the first computer mouse?",
 		"choices": [
-			{
-				"choice": "Choice 1"
-			},
 			{
-				"choice": "Choice 2"
+				"choice": "Xerox"
 			},
 			{
-				"choice": "Choice 3"
+				"choice": "IBM"
 			},
-			{
-				"choice": "Choice 4"
-			}
-		],
-		"correct": 3
-	},
-	{
-		"question": "Mock trivia question number 178",
-		"choices": [
 			{
-				"choice": "True"
+				"choice": "Microsoft"
 			},
 			{
-				"choice": "False"
+				"choice": "Apple"
 			}
 		],
-		"correct": 1
+		"correct": 0
 	},
 	{
-		"question": "Mock trivia question number 179",
+		"question": "What is the term for a malicious program that disguises itself as a legitimate software?",
 		"choices": [
 			{
-				"choice": "Choice 1"
+				"choice": "Trojan horse"
 			},
 			{
-				"choice": "Choice 2"
+				"choice": "Virus"
 			},
 			{
-				"choice": "Choice 3"
+				"choice": "Worm"
 			},
 			{
-				"choice": "Choice 4"
+				"choice": "Spyware"
 			}
 		],
-		"correct": 2
+		"correct": 0
 	},
 	{
-		"question": "Mock trivia question number 180",
+		"question": "Which programming language is often used for web scraping and data extraction?",
 		"choices": [
-			{
-				"choice": "Choice 1"
-			},
 			{
-				"choice": "Choice 2"
+				"choice": "Python"
 			},
 			{
-				"choice": "Choice 3"
+				"choice": "Java"
 			},
-			{
-				"choice": "Choice 4"
-			}
-		],
-		"correct": 3
-	},
-	{
-		"question": "Mock trivia question number 181",
-		"choices": [
 			{
-				"choice": "True"
+				"choice": "C#"
 			},
 			{
-				"choice": "False"
+				"choice": "PHP"
 			}
 		],
 		"correct": 0
 	},
 	{
-		"question": "Mock trivia question number 182",
+		"question": "What is the term for the practice of writing code that is easy to understand and maintain?",
 		"choices": [
 			{
-				"choice": "Choice 1"
+				"choice": "Readability"
 			},
 			{
-				"choice": "Choice 2"
+				"choice": "Efficiency"
 			},
 			{
-				"choice": "Choice 3"
+				"choice": "Scalability"
 			},
 			{
-				"choice": "Choice 4"
+				"choice": "Reliability"
 			}
 		],
-		"correct": 3
+		"correct": 0
 	},
 	{
-		"question": "Mock trivia question number 183",
+		"question": "Which company developed the Linux operating system?",
 		"choices": [
-			{
-				"choice": "Choice 1"
-			},
 			{
-				"choice": "Choice 2"
+				"choice": "Linus Torvalds"
 			},
 			{
-				"choice": "Choice 3"
+				"choice": "Microsoft"
 			},
-			{
-				"choice": "Choice 4"
-			}
-		],
-		"correct": 2
-	},
-	{
-		"question": "Mock trivia question number 184",
-		"choices": [
 			{
-				"choice": "True"
+				"choice": "Apple"
 			},
 			{
-				"choice": "False"
+				"choice": "IBM"
 			}
 		],
-		"correct": 1
+		"correct": 0
 	},
 	{
-		"question": "Mock trivia question number 185",
+		"question": "What is the term for a type of software that simulates a physical computer within another computer?",
 		"choices": [
 			{
-				"choice": "Choice 1"
+				"choice": "Virtual machine"
 			},
 			{
-				"choice": "Choice 2"
+				"choice": "Emulator"
 			},
 			{
-				"choice": "Choice 3"
+				"choice": "Compiler"
 			},
 			{
-				"choice": "Choice 4"
+				"choice": "Debugger"
 			}
 		],
-		"correct": 2
+		"correct": 0
 	},
 	{
-		"question": "Mock trivia question number 186",
+		"question": "Which programming language is known for its use in scientific and numerical computing?",
 		"choices": [
 			{
-				"choice": "Choice 1"
+				"choice": "MATLAB"
 			},
 			{
-				"choice": "Choice 2"
+				"choice": "Ruby"
 			},
-			{
-				"choice": "Choice 3"
-			},
-			{
-				"choice": "Choice 4"
-			}
-		],
-		"correct": 1
-	},
-	{
-		"question": "Mock trivia question number 187",
-		"choices": [
 			{
-				"choice": "True"
+				"choice": "Swift"
 			},
 			{
-				"choice": "False"
+				"choice": "Perl"
 			}
 		],
-		"correct": 1
+		"correct": 0
 	},
 	{
-		"question": "Mock trivia question number 188",
+		"question": "What is the term for a technique that involves searching for vulnerabilities in computer systems to exploit them?",
 		"choices": [
 			{
-				"choice": "Choice 1"
+				"choice": "Hacking"
 			},
 			{
-				"choice": "Choice 2"
+				"choice": "Phishing"
 			},
 			{
-				"choice": "Choice 3"
+				"choice": "Spoofing"
 			},
 			{
-				"choice": "Choice 4"
+				"choice": "Brute forcing"
 			}
 		],
-		"correct": 1
+		"correct": 0
 	},
 	{
-		"question": "Mock trivia question number 189",
+		"question": "Which company developed the Windows operating system?",
 		"choices": [
-			{
-				"choice": "Choice 1"
-			},
 			{
-				"choice": "Choice 2"
+				"choice": "Microsoft"
 			},
 			{
-				"choice": "Choice 3"
+				"choice": "Apple"
 			},
 			{
-				"choice": "Choice 4"
-			}
-		],
-		"correct": 1
-	},
-	{
-		"question": "Mock trivia question number 190",
-		"choices": [
-			{
-				"choice": "True"
+				"choice": "IBM"
 			},
 			{
-				"choice": "False"
+				"choice": "Google"
 			}
 		],
 		"correct": 0
 	},
 	{
-		"question": "Mock trivia question number 191",
+		"question": "What is the term for a type of attack that floods a network or server with excessive traffic, causing it to become unresponsive?",
 		"choices": [
 			{
-				"choice": "Choice 1"
+				"choice": "DDoS (Distributed Denial of Service) attack"
 			},
 			{
-				"choice": "Choice 2"
+				"choice": "SQL injection attack"
 			},
 			{
-				"choice": "Choice 3"
+				"choice": "Phishing attack"
 			},
 			{
-				"choice": "Choice 4"
+				"choice": "Man-in-the-middle attack"
 			}
 		],
-		"correct": 3
+		"correct": 0
 	},
 	{
-		"question": "Mock trivia question number 192",
+		"question": "Which programming language is known for its use in system administration and scripting?",
 		"choices": [
-			{
-				"choice": "Choice 1"
-			},
 			{
-				"choice": "Choice 2"
+				"choice": "Bash"
 			},
 			{
-				"choice": "Choice 3"
+				"choice": "Ruby"
 			},
-			{
-				"choice": "Choice 4"
-			}
-		],
-		"correct": 2
-	},
-	{
-		"question": "Mock trivia question number 193",
-		"choices": [
 			{
-				"choice": "True"
+				"choice": "C++"
 			},
 			{
-				"choice": "False"
+				"choice": "Swift"
 			}
 		],
 		"correct": 0
 	},
 	{
-		"question": "Mock trivia question number 194",
+		"question": "What is the term for a small piece of text stored on a user's computer by a website to remember user preferences or login information?",
 		"choices": [
 			{
-				"choice": "Choice 1"
+				"choice": "Cookie"
 			},
 			{
-				"choice": "Choice 2"
+				"choice": "Cache"
 			},
 			{
-				"choice": "Choice 3"
+				"choice": "Firewall"
 			},
 			{
-				"choice": "Choice 4"
+				"choice": "Virus"
 			}
 		],
 		"correct": 0
 	},
 	{
-		"question": "Mock trivia question number 195",
+		"question": "Which company developed the first commercial spreadsheet software?",
 		"choices": [
-			{
-				"choice": "Choice 1"
-			},
 			{
-				"choice": "Choice 2"
+				"choice": "VisiCorp"
 			},
 			{
-				"choice": "Choice 3"
+				"choice": "Microsoft"
 			},
-			{
-				"choice": "Choice 4"
-			}
-		],
-		"correct": 2
-	},
-	{
-		"question": "Mock trivia question number 196",
-		"choices": [
 			{
-				"choice": "True"
+				"choice": "IBM"
 			},
 			{
-				"choice": "False"
+				"choice": "Lotus Development Corporation"
 			}
 		],
 		"correct": 0
 	},
 	{
-		"question": "Mock trivia question number 197",
+		"question": "What is the term for a set of rules or protocols that govern the exchange of data over a network?",
 		"choices": [
 			{
-				"choice": "Choice 1"
+				"choice": "Protocol"
 			},
 			{
-				"choice": "Choice 2"
+				"choice": "Algorithm"
 			},
 			{
-				"choice": "Choice 3"
+				"choice": "API (Application Programming Interface)"
 			},
 			{
-				"choice": "Choice 4"
+				"choice": "Firewall"
 			}
 		],
-		"correct": 1
+		"correct": 0
 	},
 	{
-		"question": "Mock trivia question number 198",
+		"question": "Which programming language is often used for building web applications and dynamic websites?",
 		"choices": [
 			{
-				"choice": "Choice 1"
+				"choice": "PHP"
 			},
 			{
-				"choice": "Choice 2"
+				"choice": "Python"
 			},
 			{
-				"choice": "Choice 3"
+				"choice": "Java"
 			},
 			{
-				"choice": "Choice 4"
+				"choice": "C#"
 			}
 		],
 		"correct": 0
 	},
 	{
-		"question": "Mock trivia question number 199",
+		"question": "What is the term for the process of making changes to a software program to improve its performance, fix bugs, or add new features?",
 		"choices": [
 			{
-				"choice": "True"
+				"choice": "Software development"
 			},
 			{
-				"choice": "False"
-			}
-		],
-		"correct": 1
-	},
-	{
-		"question": "Mock trivia question number 200",
-		"choices": [
-			{
-				"choice": "Choice 1"
+				"choice": "Software testing"
 			},
 			{
-				"choice": "Choice 2"
+				"choice": "Software deployment"
 			},
 			{
-				"choice": "Choice 3"
-			},
-			{
-				"choice": "Choice 4"
+				"choice": "Software documentation"
 			}
 		],
-		"correct": 1
+		"correct": 0
 	}
 ]

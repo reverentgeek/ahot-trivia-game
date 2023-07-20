@@ -11,7 +11,15 @@ function shuffleArray( array ) {
 }
 
 function getRandomTrivia() {
-	return shuffleArray( trivia );
+	const shuffledTrivia = shuffleArray( trivia );
+	shuffledTrivia.forEach( t => {
+		t.choices[t.correct].correct = true;
+		t.choices = shuffleArray( t.choices );
+		t.correct = t.choices.findIndex( c => c.correct === true );
+		delete t.choices[t.correct].correct;
+	} );
+	return shuffledTrivia;
+	// return shuffleArray( trivia );
 }
 
 module.exports = {
