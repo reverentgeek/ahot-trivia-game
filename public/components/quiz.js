@@ -34,7 +34,6 @@ export default {
 				<button class="rounded-full mt-4 mb-2 px-16 py-3 bg-red-400" @click="skip">Skip</button>
 			</li>
 		</ul>
-		<div class="bg-orange-300 p-4 mt-8 italic">Psst: correct choice is {{ question.correct }}</div>
 	</div>
 `
 };

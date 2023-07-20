@@ -19,7 +19,6 @@ function getRandomTrivia() {
 		delete t.choices[t.correct].correct;
 	} );
 	return shuffledTrivia;
-	// return shuffleArray( trivia );
 }
 
 module.exports = {

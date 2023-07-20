@@ -35,11 +35,11 @@ function start( server ) {
 	}
 
 	function sendTrivia() {
-		// TODO: remove answers
-		// trivia.forEach( t => {
-		// 	delete t.correct;
-		// } );
-		server.io.emit( "trivia", trivia );
+		const clientTrivia = JSON.parse( JSON.stringify( trivia ) );
+		clientTrivia.forEach( t => {
+			delete t.correct;
+		} );
+		server.io.emit( "trivia", clientTrivia );
 	}
 
 	function doTheCountdown( totalSeconds, callback ) {

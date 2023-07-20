@@ -41,11 +41,11 @@ createApp( {
 			}, res => {
 				this.id = res.id;
 				this.state = "waiting";
-				console.log( "received ack from server:", res );
+				// console.log( "received ack from server:", res );
 			} );
 		},
 		answer( index ) {
-			console.log( "player answered:", index );
+			// console.log( "player answered:", index );
 			const data = {
 				id: this.id,
 				question: this.currentQuestion,
@@ -58,7 +58,7 @@ createApp( {
 			this.currentQuestion++;
 		},
 		skip() {
-			console.log( "player skipped" );
+			// console.log( "player skipped" );
 			const data = {
 				id: this.id,
 				question: this.currentQuestion,
@@ -75,14 +75,14 @@ createApp( {
 		socket.connect();
 
 		socket.on( "state", ( { state, players, countdown } ) => {
-			console.log( state, players, countdown );
+			// console.log( state, players, countdown );
 			this.state = state;
 			this.players = players;
 			this.countdown = countdown;
 		} );
 
 		socket.on( "trivia", ( trivia ) => {
-			console.log( trivia );
+			// console.log( trivia );
 			this.trivia = trivia;
 		} );
 	},
